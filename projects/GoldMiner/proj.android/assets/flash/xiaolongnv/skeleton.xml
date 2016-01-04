@@ -1,0 +1,83 @@
+<skeleton name="xiaolongnvnew" frameRate="24" version="2.0">
+ <armatures>
+  <armature name="xiaolongnv">
+   <b name="xlndongzuo" x="24.5" y="-19.5" kX="0" kY="0" cX="1" cY="1" pX="55" pY="71" z="0">
+    <d name="xlnshou01"/>
+    <d name="xlnshou02"/>
+    <d name="xlnshou03"/>
+    <d name="xlnshou04"/>
+    <d name="xlnshou05"/>
+    <d name="xlnshou06"/>
+    <d name="xlnshou07"/>
+    <d name="xlnkaixin01"/>
+    <d name="xlnkaixin02"/>
+    <d name="xlnkaixin03"/>
+    <d name="xlnkaixin04"/>
+    <d name="xlnkaixin05"/>
+    <d name="xlnkaixin06"/>
+   </b>
+   <b name="xlnhan" x="-38.95" y="-49.65" kX="0" kY="0" cX="1" cY="1" pX="12" pY="19" z="1">
+    <d name="xlnhan"/>
+   </b>
+   <b name="xlnxin" x="-39" y="-27.65" kX="0" kY="0" cX="1" cY="1" pX="23" pY="14" z="1">
+    <d name="xlnxin"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="xiaolongnv">
+   <mov name="xlndaiji" dr="2" to="0" drTW="10" lp="1" twE="NaN">
+    <b name="xlndongzuo" sc="1" dl="0">
+     <f x="24.5" y="-19.5" cocos2d_x="-30" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="55" pY="71" z="0" dI="0" dr="2"/>
+    </b>
+   </mov>
+   <mov name="xlnshou" dr="8" to="0" drTW="22" lp="1" twE="NaN">
+    <b name="xlndongzuo" sc="1" dl="0">
+     <f x="24.5" y="-19.5" cocos2d_x="-30" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="55" pY="71" z="0" dI="0" dr="1"/>
+     <f x="24.5" y="-19.5" cocos2d_x="-30" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="55" pY="71" z="0" dI="1" dr="1"/>
+     <f x="24.5" y="-19.5" cocos2d_x="-30" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="55" pY="71" z="0" dI="2" dr="1"/>
+     <f x="24.5" y="-19.5" cocos2d_x="-30" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="55" pY="71" z="0" dI="3" dr="2"/>
+     <f x="24.5" y="-19.5" cocos2d_x="-30" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="55" pY="71" z="0" dI="4" dr="1"/>
+     <f x="24.5" y="-19.5" cocos2d_x="-30" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="55" pY="71" z="0" dI="5" dr="1"/>
+     <f x="24.5" y="-19.5" cocos2d_x="-30" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="55" pY="71" z="0" dI="6" dr="1"/>
+    </b>
+    <b name="xlnhan" sc="1" dl="0">
+     <f dr="3" dI="-1"/>
+     <f x="-38.95" y="-49.65" cocos2d_x="-50.95" cocos2d_y="-68.15" kX="0" kY="0" cX="1" cY="1" pX="12" pY="19" z="1" dI="0" dr="4"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="xlnkaixin" dr="7" to="0" drTW="22" lp="1" twE="NaN">
+    <b name="xlndongzuo" sc="1" dl="0">
+     <f x="24.5" y="-19.5" cocos2d_x="-30" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="55" pY="71" z="0" dI="7" dr="2"/>
+     <f x="24.5" y="-19.5" cocos2d_x="-30" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="55" pY="71" z="0" dI="8" dr="1"/>
+     <f x="24.5" y="-19.5" cocos2d_x="-30" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="55" pY="71" z="0" dI="9" dr="1"/>
+     <f x="24.5" y="-19.5" cocos2d_x="-30" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="55" pY="71" z="0" dI="10" dr="1"/>
+     <f x="24.5" y="-19.5" cocos2d_x="-30" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="55" pY="71" z="0" dI="11" dr="1"/>
+     <f x="24.5" y="-19.5" cocos2d_x="-30" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="55" pY="71" z="0" dI="12" dr="1"/>
+    </b>
+    <b name="xlnxin" sc="1" dl="0">
+     <f dr="3" dI="-1"/>
+     <f x="-39" y="-27.65" cocos2d_x="-61.5" cocos2d_y="-41.65" kX="0" kY="0" cX="1" cY="1" pX="23" pY="14" z="1" dI="0" dr="4"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="xiaolongnvnew" width="512" height="1024">
+  <SubTexture name="xlnxin" width="45" height="28" cocos2d_pX="0" cocos2d_pY="0" x="444" y="0"/>
+  <SubTexture name="xlnhan" width="24" height="37" cocos2d_pX="0" cocos2d_pY="0" x="444" y="30"/>
+  <SubTexture name="xlnkaixin06" width="109" height="141" cocos2d_pX="0" cocos2d_pY="0" x="222" y="0"/>
+  <SubTexture name="xlnkaixin05" width="109" height="141" cocos2d_pX="0" cocos2d_pY="0" x="111" y="286"/>
+  <SubTexture name="xlnkaixin04" width="109" height="141" cocos2d_pX="0" cocos2d_pY="0" x="111" y="143"/>
+  <SubTexture name="xlnkaixin03" width="109" height="141" cocos2d_pX="0" cocos2d_pY="0" x="0" y="429"/>
+  <SubTexture name="xlnkaixin02" width="109" height="141" cocos2d_pX="0" cocos2d_pY="0" x="333" y="143"/>
+  <SubTexture name="xlnkaixin01" width="109" height="141" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+  <SubTexture name="xlnshou07" width="109" height="141" cocos2d_pX="0" cocos2d_pY="0" x="111" y="0"/>
+  <SubTexture name="xlnshou06" width="109" height="141" cocos2d_pX="0" cocos2d_pY="0" x="0" y="143"/>
+  <SubTexture name="xlnshou05" width="109" height="141" cocos2d_pX="0" cocos2d_pY="0" x="222" y="143"/>
+  <SubTexture name="xlnshou04" width="109" height="141" cocos2d_pX="0" cocos2d_pY="0" x="0" y="286"/>
+  <SubTexture name="xlnshou03" width="109" height="141" cocos2d_pX="0" cocos2d_pY="0" x="222" y="286"/>
+  <SubTexture name="xlnshou02" width="109" height="141" cocos2d_pX="0" cocos2d_pY="0" x="333" y="286"/>
+  <SubTexture name="xlnshou01" width="109" height="141" cocos2d_pX="0" cocos2d_pY="0" x="333" y="0"/>
+ </TextureAtlas>
+</skeleton>

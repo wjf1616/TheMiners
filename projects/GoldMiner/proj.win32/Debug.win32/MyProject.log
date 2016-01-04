@@ -1,0 +1,575 @@
+﻿生成启动时间为 2016/1/4 13:24:38。
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”在节点 3 上(Build 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(1)正在节点 3 上生成“D:\TheMiners\CocosDenshion\proj.win32\CocosDenshion.vcxproj”(2) (GetTargetPath 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(1)正在节点 2 上生成“D:\TheMiners\cocos2dx\proj.win32\cocos2d.vcxproj”(3) (GetTargetPath 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     2>已完成生成项目“D:\TheMiners\CocosDenshion\proj.win32\CocosDenshion.vcxproj”(GetTargetPath 个目标)的操作。
+     3>已完成生成项目“D:\TheMiners\cocos2dx\proj.win32\cocos2d.vcxproj”(GetTargetPath 个目标)的操作。
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(1)正在节点 2 上生成“D:\TheMiners\extensions\proj.win32\libExtensions.vcxproj”(4) (GetTargetPath 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     4>已完成生成项目“D:\TheMiners\extensions\proj.win32\libExtensions.vcxproj”(GetTargetPath 个目标)的操作。
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(1)正在节点 2 上生成“D:\TheMiners\external\chipmunk\proj.win32\chipmunk.vcxproj”(5) (GetTargetPath 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     5>已完成生成项目“D:\TheMiners\external\chipmunk\proj.win32\chipmunk.vcxproj”(GetTargetPath 个目标)的操作。
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(1)正在节点 3 上生成“D:\TheMiners\external\Box2D\proj.win32\Box2D.vcxproj”(6) (GetTargetPath 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     6>已完成生成项目“D:\TheMiners\external\Box2D\proj.win32\Box2D.vcxproj”(GetTargetPath 个目标)的操作。
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(1)正在节点 2 上生成“D:\TheMiners\cocos2dx\proj.win32\cocos2d.vcxproj”(3:2) (GetNativeManifest 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     3>已完成生成项目“D:\TheMiners\cocos2dx\proj.win32\cocos2d.vcxproj”(GetNativeManifest 个目标)的操作。
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(1)正在节点 3 上生成“D:\TheMiners\CocosDenshion\proj.win32\CocosDenshion.vcxproj”(2:2) (GetNativeManifest 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     2>已完成生成项目“D:\TheMiners\CocosDenshion\proj.win32\CocosDenshion.vcxproj”(GetNativeManifest 个目标)的操作。
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(1)正在节点 2 上生成“D:\TheMiners\extensions\proj.win32\libExtensions.vcxproj”(4:2) (GetNativeManifest 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     4>已完成生成项目“D:\TheMiners\extensions\proj.win32\libExtensions.vcxproj”(GetNativeManifest 个目标)的操作。
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(1)正在节点 2 上生成“D:\TheMiners\external\chipmunk\proj.win32\chipmunk.vcxproj”(5:2) (GetNativeManifest 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     5>已完成生成项目“D:\TheMiners\external\chipmunk\proj.win32\chipmunk.vcxproj”(GetNativeManifest 个目标)的操作。
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(1)正在节点 3 上生成“D:\TheMiners\external\Box2D\proj.win32\Box2D.vcxproj”(6:2) (GetNativeManifest 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     6>已完成生成项目“D:\TheMiners\external\Box2D\proj.win32\Box2D.vcxproj”(GetNativeManifest 个目标)的操作。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\TheMiners\projects\GoldMiner\proj.win32\..\..\..\cocos2dx /ID:\TheMiners\projects\GoldMiner\proj.win32\..\..\..\cocos2dx\include /ID:\TheMiners\projects\GoldMiner\proj.win32\..\..\..\cocos2dx\kazmath\include /ID:\TheMiners\projects\GoldMiner\proj.win32\..\..\..\cocos2dx\platform\win32 /ID:\TheMiners\projects\GoldMiner\proj.win32\..\..\..\cocos2dx\platform\third_party\win32 /ID:\TheMiners\projects\GoldMiner\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES /ID:\TheMiners\projects\GoldMiner\proj.win32\..\..\..\external /ID:\TheMiners\projects\GoldMiner\proj.win32\..\..\..\external\chipmunk\include\chipmunk /ID:\TheMiners\projects\GoldMiner\proj.win32\..\..\..\CocosDenshion\include /ID:\TheMiners\projects\GoldMiner\proj.win32\..\..\..\extensions /I..\Classes /I.. /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\CSArmature /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\CSArmature\utils /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\CSArmature\animation /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\CSArmature\datas /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\CSArmature\display /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\CSArmature\physics /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\CSArmature\external_tool /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\CSArmature\external_tool\Json /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\CSArmature\external_tool\Json\json /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\CSArmature\external_tool\Json\lib_json /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\CSArmature\external_tool\tinyxml /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\SPArmature /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\SPArmature\SPArmature /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\SPArmature\SPArmature\animation /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\SPArmature\SPArmature\datas /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\SPArmature\SPArmature\datas\display_data /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\SPArmature\SPArmature\utils /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\SPArmature\SPArmature\display /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\SPArmature\SPArmature\display\display_factory /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\SPArmature\SPArmature\external_tool /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\SPArmature\SPArmature\external_tool\Json /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\SPArmature\SPArmature\external_tool\Json\json /ID:\TheMiners\projects\GoldMiner\proj.win32\..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\Alignment.cpp ..\Classes\AppDelegate.cpp ..\Classes\BigGateMenu.cpp ..\Classes\Buddaha.cpp ..\Classes\Carrier.cpp ..\Classes\CartoonLayer.cpp ..\Classes\ChallengeCount.cpp ..\Classes\ChallengeOver.cpp ..\Classes\CostLayer.cpp ..\Classes\CountDownEffect.cpp ..\Classes\CSArmature\animation\CSAnimation.cpp ..\Classes\CSArmature\animation\CSProcessBase.cpp ..\Classes\CSArmature\animation\CSTween.cpp ..\Classes\CSArmature\CSArmature.cpp ..\Classes\CSArmature\CSBone.cpp ..\Classes\CSArmature\datas\CSDatas.cpp ..\Classes\CSArmature\display\CSBatchNode.cpp ..\Classes\CSArmature\display\CSDecorativeDisplay.cpp ..\Classes\CSArmature\display\CSDisplayFactory.cpp ..\Classes\CSArmature\display\CSDisplayManager.cpp ..\Classes\CSArmature\display\CSShaderNode.cpp ..\Classes\CSArmature\display\CSSkin.cpp ..\Classes\CSArmature\external_tool\CCTexture2DMutable.cpp "..\Classes\CSArmature\external_tool\GLES-Render.cpp" ..\Classes\CSArmature\external_tool\Json\CSContentJsonDictionary.cpp ..\Classes\CSArmature\external_tool\Json\lib_json\json_reader.cpp ..\Classes\CSArmature\external_tool\Json\lib_json\json_value.cpp ..\Classes\CSArmature\external_tool\Json\lib_json\json_writer.cpp ..\Classes\CSArmature\external_tool\tinyxml\tinystr.cpp ..\Classes\CSArmature\external_tool\tinyxml\tinyxml.cpp ..\Classes\CSArmature\external_tool\tinyxml\tinyxmlerror.cpp ..\Classes\CSArmature\external_tool\tinyxml\tinyxmlparser.cpp ..\Classes\CSArmature\physics\CSColliderDetector.cpp ..\Classes\CSArmature\physics\CSPhysicsWorld.cpp ..\Classes\CSArmature\utils\CSArmatureDataManager.cpp ..\Classes\CSArmature\utils\CSDataReaderHelper.cpp ..\Classes\CSArmature\utils\CSSpriteFrameCacheHelper.cpp ..\Classes\CSArmature\utils\CSTransformHelp.cpp ..\Classes\CSArmature\utils\CSTweenFunction.cpp ..\Classes\CSArmature\utils\CSUtilMath.cpp ..\Classes\DateManger.cpp ..\Classes\DizzySpecialEffect.cpp ..\Classes\DrawLayer.cpp ..\Classes\DynamicTarget.cpp ..\Classes\ExchangeHangerEffect.cpp ..\Classes\ExitLayer.cpp ..\Classes\Explode.cpp ..\Classes\Explosive.cpp ..\Classes\Finger.cpp ..\Classes\GameAppend.cpp ..\Classes\GameControl.cpp ..\Classes\GameOverMenu.cpp ..\Classes\Gate.cpp ..\Classes\Global.cpp ..\Classes\GMJson.cpp ..\Classes\GoldenMinerScene.cpp ..\Classes\HalpLayer.cpp ..\Classes\Hanger.cpp ..\Classes\IngotDrop.cpp ..\Classes\JewelAppendEffect.cpp ..\Classes\JewelSkillSprite.cpp ..\Classes\LastTimeCountEffect.cpp ..\Classes\LoadingLayer.cpp ..\Classes\MainAppendLayer.cpp ..\Classes\MainLayer.cpp ..\Classes\MusicControl.cpp ..\Classes\MyAboutLayer.cpp ..\Classes\MyScrollView.cpp ..\Classes\NetWork.cpp ..\Classes\PauseMenu.cpp ..\Classes\PayService.cpp ..\Classes\Pet.cpp ..\Classes\PetParkLayer.cpp ..\Classes\Player.cpp ..\Classes\PowerBuff.cpp ..\Classes\PromptLayer.cpp ..\Classes\Prop.cpp ..\Classes\RegisterLayer.cpp ..\Classes\Role.cpp ..\Classes\RoleInformation.cpp ..\Classes\RoleSkillEffect.cpp ..\Classes\Rope.cpp ..\Classes\ScoreAppendEffect.cpp ..\Classes\SelectChallenge.cpp ..\Classes\SelectPet.cpp ..\Classes\SelectRoleAndPet.cpp ..\Classes\SelectRoleAndPropMenu.cpp ..\Classes\Sensitization.cpp ..\Classes\SetMenu.cpp ..\Classes\SettingMenu.cpp ..\Classes\Shop.cpp ..\Classes\SimleGateMenu.cpp ..\Classes\Skill.cpp ..\Classes\SlipGuide.cpp ..\Classes\SPArmature\SPArmature\animation\SPAnimation.cpp ..\Classes\SPArmature\SPArmature\animation\SPProcessBase.cpp ..\Classes\SPArmature\SPArmature\animation\SPTween.cpp ..\Classes\SPArmature\SPArmature\datas\display_data\SPArmatureDisplayData.cpp ..\Classes\SPArmature\SPArmature\datas\display_data\SPDisplayData.cpp ..\Classes\SPArmature\SPArmature\datas\display_data\SPParticleDisplayData.cpp ..\Classes\SPArmature\SPArmature\datas\display_data\SPShaderDisplayData.cpp ..\Classes\SPArmature\SPArmature\datas\display_data\SPSpriteDisplayData.cpp ..\Classes\SPArmature\SPArmature\datas\SPAnimationData.cpp ..\Classes\SPArmature\SPArmature\datas\SPArmatureData.cpp ..\Classes\SPArmature\SPArmature\datas\SPBoneData.cpp ..\Classes\SPArmature\SPArmature\datas\SPContourData.cpp ..\Classes\SPArmature\SPArmature\datas\SPFrameData.cpp ..\Classes\SPArmature\SPArmature\datas\SPJsonData.cpp ..\Classes\SPArmature\SPArmature\datas\SPMovementBoneData.cpp ..\Classes\SPArmature\SPArmature\datas\SPMovementData.cpp ..\Classes\SPArmature\SPArmature\datas\SPMovementFrameData.cpp ..\Classes\SPArmature\SPArmature\datas\SPNode.cpp ..\Classes\SPArmature\SPArmature\datas\SPTextureData.cpp ..\Classes\SPArmature\SPArmature\display\CCTexture2DMutable.cpp ..\Classes\SPArmature\SPArmature\display\display_factory\SPArmatureDisplayFactory.cpp ..\Classes\SPArmature\SPArmature\display\display_factory\SPDisplayFactory.cpp ..\Classes\SPArmature\SPArmature\display\display_factory\SPDisplayFactoryManager.cpp ..\Classes\SPArmature\SPArmature\display\display_factory\SPParticleDisplayFactory.cpp ..\Classes\SPArmature\SPArmature\display\display_factory\SPShaderDisplayFactory.cpp ..\Classes\SPArmature\SPArmature\display\display_factory\SPSpriteDisplayFactory.cpp ..\Classes\SPArmature\SPArmature\display\SPContourPoints.cpp ..\Classes\SPArmature\SPArmature\display\SPContourSprite.cpp ..\Classes\SPArmature\SPArmature\display\SPDecorativeDisplay.cpp ..\Classes\SPArmature\SPArmature\display\SPDisplayManager.cpp ..\Classes\SPArmature\SPArmature\display\SPShaderNode.cpp ..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_reader.cpp ..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_value.cpp ..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_writer.cpp ..\Classes\SPArmature\SPArmature\external_tool\Json\SPContentJsonDictionary.cpp ..\Classes\SPArmature\SPArmature\SPArmature.cpp ..\Classes\SPArmature\SPArmature\SPBone.cpp ..\Classes\SPArmature\SPArmature\utils\SPArmatureDataManager.cpp ..\Classes\SPArmature\SPArmature\utils\SPBatchNode.cpp ..\Classes\SPArmature\SPArmature\utils\SPBatchNodeManager.cpp ..\Classes\SPArmature\SPArmature\utils\SPDataReaderHelper.cpp ..\Classes\SPArmature\SPArmature\utils\SPTransformHelp.cpp ..\Classes\SPArmature\SPArmature\utils\SPTweenFunction.cpp ..\Classes\SPArmature\SPArmature\utils\SPUtilMath.cpp ..\Classes\SPArmature\tinyxml\tinystr.cpp ..\Classes\SPArmature\tinyxml\tinyxml.cpp ..\Classes\SPArmature\tinyxml\tinyxmlerror.cpp ..\Classes\SPArmature\tinyxml\tinyxmlparser.cpp ..\Classes\SpotLightLayer.cpp ..\Classes\Target.cpp ..\Classes\TemporaryPromptLayer.cpp ..\Classes\TimeAppendEffect.cpp main.cpp
+         main.cpp
+         TimeAppendEffect.cpp
+         TemporaryPromptLayer.cpp
+         Target.cpp
+         SpotLightLayer.cpp
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         tinystr.cpp
+         SPUtilMath.cpp
+         SPTweenFunction.cpp
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\utils\sptweenfunction.cpp(316): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\utils\sptweenfunction.cpp(322): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\utils\sptweenfunction.cpp(328): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\utils\sptweenfunction.cpp(330): warning C4305: “*=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\utils\sptweenfunction.cpp(331): warning C4305: “*=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\utils\sptweenfunction.cpp(344): warning C4305: “-=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\utils\sptweenfunction.cpp(346): warning C4305: “-=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\utils\sptweenfunction.cpp(348): warning C4305: “-=”: 从“double”到“float”截断
+         SPTransformHelp.cpp
+         SPDataReaderHelper.cpp
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\utils\spdatareaderhelper.cpp(74): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\utils\spdatareaderhelper.cpp(157): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\utils\spdatareaderhelper.cpp(429): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+         SPBatchNodeManager.cpp
+         SPBatchNode.cpp
+         SPArmatureDataManager.cpp
+         SPBone.cpp
+         SPArmature.cpp
+         SPContentJsonDictionary.cpp
+         json_writer.cpp
+         正在生成代码...
+         正在编译...
+         json_value.cpp
+         json_reader.cpp
+         SPShaderNode.cpp
+         SPDisplayManager.cpp
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\display\spdisplaymanager.cpp(94): warning C4018: “<”: 有符号/无符号不匹配
+         SPDecorativeDisplay.cpp
+         SPContourSprite.cpp
+         SPContourPoints.cpp
+         SPSpriteDisplayFactory.cpp
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\display\display_factory\spspritedisplayfactory.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         SPShaderDisplayFactory.cpp
+         SPParticleDisplayFactory.cpp
+         SPDisplayFactoryManager.cpp
+         SPDisplayFactory.cpp
+         SPArmatureDisplayFactory.cpp
+         CCTexture2DMutable.cpp
+         SPTextureData.cpp
+         SPNode.cpp
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\datas\spnode.cpp(123): warning C4305: “-=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\datas\spnode.cpp(127): warning C4305: “+=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\datas\spnode.cpp(132): warning C4305: “-=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\datas\spnode.cpp(136): warning C4305: “+=”: 从“double”到“float”截断
+         SPMovementFrameData.cpp
+         SPMovementData.cpp
+         SPMovementBoneData.cpp
+         SPJsonData.cpp
+         正在生成代码...
+         正在编译...
+         SPFrameData.cpp
+         SPContourData.cpp
+         SPBoneData.cpp
+         SPArmatureData.cpp
+         SPAnimationData.cpp
+         SPSpriteDisplayData.cpp
+         SPShaderDisplayData.cpp
+         SPParticleDisplayData.cpp
+         SPDisplayData.cpp
+         SPArmatureDisplayData.cpp
+         SPTween.cpp
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\animation\sptween.cpp(608): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\animation\sptween.cpp(609): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\animation\sptween.cpp(625): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\animation\sptween.cpp(626): warning C4305: “参数”: 从“double”到“float”截断
+         SPProcessBase.cpp
+         SPAnimation.cpp
+     1>d:\theminers\projects\goldminer\classes\sparmature\sparmature\animation\spanimation.cpp(416): warning C4018: “<”: 有符号/无符号不匹配
+         SlipGuide.cpp
+         Skill.cpp
+         SimleGateMenu.cpp
+         Shop.cpp
+     1>d:\theminers\projects\goldminer\classes\shop.cpp(441): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\shop.cpp(445): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\shop.cpp(726): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\shop.cpp(867): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\shop.cpp(871): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\shop.cpp(903): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\shop.cpp(907): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\shop.cpp(1027): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\shop.cpp(1031): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\shop.cpp(1060): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\shop.cpp(1097): warning C4018: “<”: 有符号/无符号不匹配
+         SettingMenu.cpp
+         SetMenu.cpp
+     1>d:\theminers\projects\goldminer\classes\setmenu.cpp(37): warning C4996: 'cocos2d::extension::CCBAnimationManager::runAnimations': 被声明为已否决
+                 d:\theminers\extensions\ccbreader\ccbanimationmanager.h(101) : 参见“cocos2d::extension::CCBAnimationManager::runAnimations”的声明
+     1>d:\theminers\projects\goldminer\classes\setmenu.cpp(43): warning C4996: 'cocos2d::extension::CCBAnimationManager::runAnimations': 被声明为已否决
+                 d:\theminers\extensions\ccbreader\ccbanimationmanager.h(101) : 参见“cocos2d::extension::CCBAnimationManager::runAnimations”的声明
+         Sensitization.cpp
+         正在生成代码...
+         正在编译...
+         SelectRoleAndPropMenu.cpp
+     1>d:\theminers\projects\goldminer\classes\selectroleandpropmenu.cpp(708): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\selectroleandpropmenu.cpp(878): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\selectroleandpropmenu.cpp(895): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\selectroleandpropmenu.cpp(899): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\selectroleandpropmenu.cpp(911): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\selectroleandpropmenu.cpp(933): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\selectroleandpropmenu.cpp(937): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\selectroleandpropmenu.cpp(1421): warning C4018: “<”: 有符号/无符号不匹配
+         SelectRoleAndPet.cpp
+     1>d:\theminers\projects\goldminer\classes\selectroleandpet.cpp(1012): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\selectroleandpet.cpp(1302): warning C4018: “<”: 有符号/无符号不匹配
+         SelectPet.cpp
+     1>d:\theminers\projects\goldminer\classes\selectpet.cpp(64): warning C4305: “参数”: 从“double”到“float”截断
+         SelectChallenge.cpp
+         ScoreAppendEffect.cpp
+         Rope.cpp
+     1>d:\theminers\projects\goldminer\classes\rope.cpp(14): warning C4305: “参数”: 从“double”到“float”截断
+         RoleSkillEffect.cpp
+         RoleInformation.cpp
+         Role.cpp
+     1>d:\theminers\projects\goldminer\classes\role.cpp(1047): warning C4305: “参数”: 从“double”到“float”截断
+         RegisterLayer.cpp
+         Prop.cpp
+         PromptLayer.cpp
+     1>d:\theminers\projects\goldminer\classes\promptlayer.cpp(305): warning C4018: “<”: 有符号/无符号不匹配
+         PowerBuff.cpp
+         Player.cpp
+         PetParkLayer.cpp
+     1>d:\theminers\projects\goldminer\classes\petparklayer.cpp(642): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\petparklayer.cpp(696): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\petparklayer.cpp(807): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\petparklayer.cpp(1093): warning C4018: “<”: 有符号/无符号不匹配
+         Pet.cpp
+     1>d:\theminers\projects\goldminer\classes\pet.cpp(389): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\pet.cpp(395): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\pet.cpp(591): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\pet.cpp(788): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\pet.cpp(991): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\pet.cpp(1189): warning C4305: “参数”: 从“double”到“float”截断
+         PayService.cpp
+         PauseMenu.cpp
+         NetWork.cpp
+     1>d:\theminers\projects\goldminer\classes\network.cpp(49): warning C4996: 'cocos2d::extension::CCHttpRequest::setResponseCallback': 被声明为已否决
+                 d:\theminers\extensions\network\httprequest.h(166) : 参见“cocos2d::extension::CCHttpRequest::setResponseCallback”的声明
+     1>d:\theminers\projects\goldminer\classes\network.cpp(71): warning C4996: 'cocos2d::extension::CCHttpRequest::setResponseCallback': 被声明为已否决
+                 d:\theminers\extensions\network\httprequest.h(166) : 参见“cocos2d::extension::CCHttpRequest::setResponseCallback”的声明
+     1>d:\theminers\projects\goldminer\classes\network.cpp(91): warning C4996: 'cocos2d::extension::CCHttpRequest::setResponseCallback': 被声明为已否决
+                 d:\theminers\extensions\network\httprequest.h(166) : 参见“cocos2d::extension::CCHttpRequest::setResponseCallback”的声明
+         MyScrollView.cpp
+         正在生成代码...
+     1>d:\theminers\projects\goldminer\classes\petparklayer.cpp(241): warning C4715: “PetParkLayer::onResolveCCBCCCallFuncSelector”: 不是所有的控件路径都返回值
+     1>d:\theminers\projects\goldminer\classes\roleskilleffect.cpp(42): warning C4715: “RoleSkillEffect::onResolveCCBCCCallFuncSelector”: 不是所有的控件路径都返回值
+         正在编译...
+         MyAboutLayer.cpp
+         MusicControl.cpp
+         MainLayer.cpp
+         MainAppendLayer.cpp
+     1>d:\theminers\projects\goldminer\classes\mainappendlayer.cpp(469): warning C4305: “参数”: 从“double”到“float”截断
+         LoadingLayer.cpp
+     1>d:\theminers\projects\goldminer\classes\loadinglayer.cpp(88): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\loadinglayer.cpp(110): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\loadinglayer.cpp(130): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\loadinglayer.cpp(150): warning C4018: “<”: 有符号/无符号不匹配
+         LastTimeCountEffect.cpp
+         JewelSkillSprite.cpp
+     1>d:\theminers\projects\goldminer\classes\jewelskillsprite.cpp(737): warning C4101: “p”: 未引用的局部变量
+     1>d:\theminers\projects\goldminer\classes\jewelskillsprite.cpp(783): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\jewelskillsprite.cpp(894): warning C4101: “p”: 未引用的局部变量
+     1>d:\theminers\projects\goldminer\classes\jewelskillsprite.cpp(931): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\jewelskillsprite.cpp(938): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\jewelskillsprite.cpp(945): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\jewelskillsprite.cpp(983): warning C4305: “参数”: 从“int”到“bool”截断
+     1>d:\theminers\projects\goldminer\classes\jewelskillsprite.cpp(984): warning C4305: “参数”: 从“int”到“bool”截断
+         JewelAppendEffect.cpp
+         IngotDrop.cpp
+         Hanger.cpp
+     1>d:\theminers\projects\goldminer\classes\hanger.cpp(47): warning C4305: “参数”: 从“double”到“float”截断
+         HalpLayer.cpp
+     1>d:\theminers\projects\goldminer\classes\halplayer.cpp(57): warning C4018: “<”: 有符号/无符号不匹配
+         GoldenMinerScene.cpp
+         GMJson.cpp
+         Global.cpp
+         Gate.cpp
+     1>d:\theminers\projects\goldminer\classes\gate.cpp(573): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\gate.cpp(766): warning C4305: “参数”: 从“double”到“float”截断
+         GameOverMenu.cpp
+     1>d:\theminers\projects\goldminer\classes\gameovermenu.cpp(140): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\gameovermenu.cpp(152): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\gameovermenu.cpp(160): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\gameovermenu.cpp(168): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\gameovermenu.cpp(1078): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\gameovermenu.cpp(1083): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\gameovermenu.cpp(1088): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\gameovermenu.cpp(1097): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\gameovermenu.cpp(1116): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\gameovermenu.cpp(1122): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\gameovermenu.cpp(1128): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\gameovermenu.cpp(1134): warning C4018: “<”: 有符号/无符号不匹配
+         GameControl.cpp
+     1>d:\theminers\projects\goldminer\classes\gamecontrol.cpp(223): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\gamecontrol.cpp(228): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\gamecontrol.cpp(233): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\gamecontrol.cpp(327): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\gamecontrol.cpp(355): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\gamecontrol.cpp(383): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\gamecontrol.cpp(419): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\gamecontrol.cpp(1312): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\gamecontrol.cpp(2263): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\gamecontrol.cpp(2439): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\gamecontrol.cpp(2447): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\gamecontrol.cpp(2771): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\gamecontrol.cpp(2869): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\gamecontrol.cpp(2902): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\gamecontrol.cpp(3273): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\gamecontrol.cpp(3277): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\gamecontrol.cpp(3281): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\gamecontrol.cpp(4773): warning C4305: “参数”: 从“double”到“float”截断
+         GameAppend.cpp
+         Finger.cpp
+         Explosive.cpp
+         正在生成代码...
+     1>d:\theminers\projects\goldminer\classes\gameappend.cpp(62): warning C4715: “GameAppend::onResolveCCBCCCallFuncSelector”: 不是所有的控件路径都返回值
+     1>d:\theminers\projects\goldminer\classes\gameovermenu.cpp(116): warning C4715: “GameOverMenu::onResolveCCBCCCallFuncSelector”: 不是所有的控件路径都返回值
+     1>d:\theminers\projects\goldminer\classes\halplayer.cpp(103): warning C4715: “HalpLayer::onResolveCCBCCCallFuncSelector”: 不是所有的控件路径都返回值
+     1>d:\theminers\projects\goldminer\classes\loadinglayer.cpp(77): warning C4715: “LoadingLayer::onResolveCCBCCCallFuncSelector”: 不是所有的控件路径都返回值
+     1>d:\theminers\projects\goldminer\classes\mainappendlayer.cpp(86): warning C4715: “MainAppendLayer::onResolveCCBCCCallFuncSelector”: 不是所有的控件路径都返回值
+     1>d:\theminers\projects\goldminer\classes\myaboutlayer.cpp(53): warning C4715: “MyAboutLayer::onResolveCCBCCCallFuncSelector”: 不是所有的控件路径都返回值
+         正在编译...
+         Explode.cpp
+         ExitLayer.cpp
+         ExchangeHangerEffect.cpp
+         DynamicTarget.cpp
+     1>d:\theminers\projects\goldminer\classes\dynamictarget.cpp(431): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\dynamictarget.cpp(441): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\dynamictarget.cpp(752): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\dynamictarget.cpp(1345): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\dynamictarget.cpp(1695): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\dynamictarget.cpp(2102): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\dynamictarget.cpp(2781): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\dynamictarget.cpp(3262): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\dynamictarget.cpp(3487): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\dynamictarget.cpp(3674): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\dynamictarget.cpp(3925): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\dynamictarget.cpp(4117): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\dynamictarget.cpp(4288): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\dynamictarget.cpp(4458): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\dynamictarget.cpp(4642): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\dynamictarget.cpp(4828): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\dynamictarget.cpp(5036): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\dynamictarget.cpp(5237): warning C4305: “参数”: 从“double”到“float”截断
+         DrawLayer.cpp
+     1>d:\theminers\projects\goldminer\classes\drawlayer.cpp(128): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\drawlayer.cpp(177): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\drawlayer.cpp(199): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\drawlayer.cpp(211): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\drawlayer.cpp(212): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\drawlayer.cpp(222): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\drawlayer.cpp(224): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\drawlayer.cpp(230): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\drawlayer.cpp(246): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\drawlayer.cpp(296): warning C4018: “<”: 有符号/无符号不匹配
+         DizzySpecialEffect.cpp
+         DateManger.cpp
+         CSUtilMath.cpp
+     1>d:\theminers\projects\goldminer\classes\csarmature\utils\csutilmath.cpp(113): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\csarmature\utils\csutilmath.cpp(115): warning C4305: “+=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\csarmature\utils\csutilmath.cpp(117): warning C4305: “-=”: 从“double”到“float”截断
+         CSTweenFunction.cpp
+     1>d:\theminers\projects\goldminer\classes\csarmature\utils\cstweenfunction.cpp(316): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\csarmature\utils\cstweenfunction.cpp(322): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\csarmature\utils\cstweenfunction.cpp(328): warning C4305: “=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\csarmature\utils\cstweenfunction.cpp(330): warning C4305: “*=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\csarmature\utils\cstweenfunction.cpp(331): warning C4305: “*=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\csarmature\utils\cstweenfunction.cpp(344): warning C4305: “-=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\csarmature\utils\cstweenfunction.cpp(346): warning C4305: “-=”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\csarmature\utils\cstweenfunction.cpp(348): warning C4305: “-=”: 从“double”到“float”截断
+         CSTransformHelp.cpp
+         CSSpriteFrameCacheHelper.cpp
+         CSDataReaderHelper.cpp
+     1>d:\theminers\projects\goldminer\classes\csarmature\utils\csdatareaderhelper.cpp(400): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+         CSArmatureDataManager.cpp
+         CSPhysicsWorld.cpp
+         CSColliderDetector.cpp
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         tinystr.cpp
+         json_writer.cpp
+         正在生成代码...
+         正在编译...
+         json_value.cpp
+         json_reader.cpp
+         CSContentJsonDictionary.cpp
+         GLES-Render.cpp
+         CCTexture2DMutable.cpp
+         CSSkin.cpp
+         CSShaderNode.cpp
+         CSDisplayManager.cpp
+     1>d:\theminers\projects\goldminer\classes\csarmature\display\csdisplaymanager.cpp(95): warning C4018: “<”: 有符号/无符号不匹配
+         CSDisplayFactory.cpp
+         CSDecorativeDisplay.cpp
+         CSBatchNode.cpp
+         CSDatas.cpp
+         CSBone.cpp
+         CSArmature.cpp
+         CSTween.cpp
+         CSProcessBase.cpp
+         CSAnimation.cpp
+     1>d:\theminers\projects\goldminer\classes\csarmature\animation\csanimation.cpp(189): warning C4018: “<”: 有符号/无符号不匹配
+         CountDownEffect.cpp
+         CostLayer.cpp
+         ChallengeOver.cpp
+         正在生成代码...
+     1>d:\theminers\projects\goldminer\classes\countdowneffect.cpp(53): warning C4715: “CountDownEffect::onResolveCCBCCCallFuncSelector”: 不是所有的控件路径都返回值
+         正在编译...
+         ChallengeCount.cpp
+     1>d:\theminers\projects\goldminer\classes\challengecount.cpp(118): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\challengecount.cpp(130): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\challengecount.cpp(138): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\challengecount.cpp(146): warning C4305: “参数”: 从“double”到“float”截断
+         CartoonLayer.cpp
+     1>d:\theminers\projects\goldminer\classes\cartoonlayer.cpp(174): warning C4305: “参数”: 从“double”到“float”截断
+         Carrier.cpp
+     1>d:\theminers\projects\goldminer\classes\carrier.cpp(111): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\carrier.cpp(181): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\carrier.cpp(190): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\carrier.cpp(288): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\theminers\projects\goldminer\classes\carrier.cpp(306): warning C4305: “参数”: 从“double”到“float”截断
+         Buddaha.cpp
+     1>d:\theminers\projects\goldminer\classes\buddaha.cpp(139): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\buddaha.cpp(153): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\theminers\projects\goldminer\classes\buddaha.cpp(161): warning C4018: “<”: 有符号/无符号不匹配
+         BigGateMenu.cpp
+     1>d:\theminers\projects\goldminer\classes\biggatemenu.cpp(338): warning C4018: “<”: 有符号/无符号不匹配
+         AppDelegate.cpp
+         Alignment.cpp
+     1>d:\theminers\projects\goldminer\classes\alignment.cpp(13): warning C4305: “参数”: 从“double”到“float”截断
+         正在生成代码...
+     1>d:\theminers\projects\goldminer\classes\buddaha.cpp(52): warning C4715: “Buddaha::onResolveCCBCCCallFuncSelector”: 不是所有的控件路径都返回值
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(1)正在节点 3 上生成“D:\TheMiners\CocosDenshion\proj.win32\CocosDenshion.vcxproj”(2:3) (GetResolvedLinkLibs 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(1)正在节点 2 上生成“D:\TheMiners\cocos2dx\proj.win32\cocos2d.vcxproj”(3:3) (GetResolvedLinkLibs 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     3>已完成生成项目“D:\TheMiners\cocos2dx\proj.win32\cocos2d.vcxproj”(GetResolvedLinkLibs 个目标)的操作。
+     2>已完成生成项目“D:\TheMiners\CocosDenshion\proj.win32\CocosDenshion.vcxproj”(GetResolvedLinkLibs 个目标)的操作。
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(1)正在节点 2 上生成“D:\TheMiners\extensions\proj.win32\libExtensions.vcxproj”(4:3) (GetResolvedLinkLibs 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     4>已完成生成项目“D:\TheMiners\extensions\proj.win32\libExtensions.vcxproj”(GetResolvedLinkLibs 个目标)的操作。
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(1)正在节点 2 上生成“D:\TheMiners\external\chipmunk\proj.win32\chipmunk.vcxproj”(5:3) (GetResolvedLinkLibs 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     5>已完成生成项目“D:\TheMiners\external\chipmunk\proj.win32\chipmunk.vcxproj”(GetResolvedLinkLibs 个目标)的操作。
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(1)正在节点 3 上生成“D:\TheMiners\external\Box2D\proj.win32\Box2D.vcxproj”(6:3) (GetResolvedLinkLibs 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     6>已完成生成项目“D:\TheMiners\external\Box2D\proj.win32\Box2D.vcxproj”(GetResolvedLinkLibs 个目标)的操作。
+     1>PreLinkEvent:
+         if not exist "D:\TheMiners\projects\GoldMiner\proj.win32\Debug.win32\" mkdir "D:\TheMiners\projects\GoldMiner\proj.win32\Debug.win32\"
+         xcopy /Y /Q "D:\TheMiners\projects\GoldMiner\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "D:\TheMiners\projects\GoldMiner\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\TheMiners\projects\GoldMiner\proj.win32\Debug.win32\GoldMiner.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\TheMiners\projects\GoldMiner\proj.win32\Debug.win32\ libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib libiconv.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\TheMiners\projects\GoldMiner\proj.win32\Debug.win32\GoldMiner.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\TheMiners\projects\GoldMiner\proj.win32\Debug.win32\GoldMiner.lib" /MACHINE:X86 /SAFESEH Debug.win32\Alignment.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\BigGateMenu.obj
+         Debug.win32\Buddaha.obj
+         Debug.win32\Carrier.obj
+         Debug.win32\CartoonLayer.obj
+         Debug.win32\ChallengeCount.obj
+         Debug.win32\ChallengeOver.obj
+         Debug.win32\CostLayer.obj
+         Debug.win32\CountDownEffect.obj
+         Debug.win32\CSAnimation.obj
+         Debug.win32\CSProcessBase.obj
+         Debug.win32\CSTween.obj
+         Debug.win32\CSArmature.obj
+         Debug.win32\CSBone.obj
+         Debug.win32\CSDatas.obj
+         Debug.win32\CSBatchNode.obj
+         Debug.win32\CSDecorativeDisplay.obj
+         Debug.win32\CSDisplayFactory.obj
+         Debug.win32\CSDisplayManager.obj
+         Debug.win32\CSShaderNode.obj
+         Debug.win32\CSSkin.obj
+         Debug.win32\CCTexture2DMutable.obj
+         "Debug.win32\GLES-Render.obj"
+         Debug.win32\CSContentJsonDictionary.obj
+         Debug.win32\json_reader.obj
+         Debug.win32\json_value.obj
+         Debug.win32\json_writer.obj
+         Debug.win32\tinystr.obj
+         Debug.win32\tinyxml.obj
+         Debug.win32\tinyxmlerror.obj
+         Debug.win32\tinyxmlparser.obj
+         Debug.win32\CSColliderDetector.obj
+         Debug.win32\CSPhysicsWorld.obj
+         Debug.win32\CSArmatureDataManager.obj
+         Debug.win32\CSDataReaderHelper.obj
+         Debug.win32\CSSpriteFrameCacheHelper.obj
+         Debug.win32\CSTransformHelp.obj
+         Debug.win32\CSTweenFunction.obj
+         Debug.win32\CSUtilMath.obj
+         Debug.win32\DateManger.obj
+         Debug.win32\DizzySpecialEffect.obj
+         Debug.win32\DrawLayer.obj
+         Debug.win32\DynamicTarget.obj
+         Debug.win32\ExchangeHangerEffect.obj
+         Debug.win32\ExitLayer.obj
+         Debug.win32\Explode.obj
+         Debug.win32\Explosive.obj
+         Debug.win32\Finger.obj
+         Debug.win32\GameAppend.obj
+         Debug.win32\GameControl.obj
+         Debug.win32\GameOverMenu.obj
+         Debug.win32\Gate.obj
+         Debug.win32\Global.obj
+         Debug.win32\GMJson.obj
+         Debug.win32\GoldenMinerScene.obj
+         Debug.win32\HalpLayer.obj
+         Debug.win32\Hanger.obj
+         Debug.win32\IngotDrop.obj
+         Debug.win32\JewelAppendEffect.obj
+         Debug.win32\JewelSkillSprite.obj
+         Debug.win32\LastTimeCountEffect.obj
+         Debug.win32\LoadingLayer.obj
+         Debug.win32\MainAppendLayer.obj
+         Debug.win32\MainLayer.obj
+         Debug.win32\MusicControl.obj
+         Debug.win32\MyAboutLayer.obj
+         Debug.win32\MyScrollView.obj
+         Debug.win32\NetWork.obj
+         Debug.win32\PauseMenu.obj
+         Debug.win32\PayService.obj
+         Debug.win32\Pet.obj
+         Debug.win32\PetParkLayer.obj
+         Debug.win32\Player.obj
+         Debug.win32\PowerBuff.obj
+         Debug.win32\PromptLayer.obj
+         Debug.win32\Prop.obj
+         Debug.win32\RegisterLayer.obj
+         Debug.win32\Role.obj
+         Debug.win32\RoleInformation.obj
+         Debug.win32\RoleSkillEffect.obj
+         Debug.win32\Rope.obj
+         Debug.win32\ScoreAppendEffect.obj
+         Debug.win32\SelectChallenge.obj
+         Debug.win32\SelectPet.obj
+         Debug.win32\SelectRoleAndPet.obj
+         Debug.win32\SelectRoleAndPropMenu.obj
+         Debug.win32\Sensitization.obj
+         Debug.win32\SetMenu.obj
+         Debug.win32\SettingMenu.obj
+         Debug.win32\Shop.obj
+         Debug.win32\SimleGateMenu.obj
+         Debug.win32\Skill.obj
+         Debug.win32\SlipGuide.obj
+         Debug.win32\SPAnimation.obj
+         Debug.win32\SPProcessBase.obj
+         Debug.win32\SPTween.obj
+         Debug.win32\SPArmatureDisplayData.obj
+         Debug.win32\SPDisplayData.obj
+         Debug.win32\SPParticleDisplayData.obj
+         Debug.win32\SPShaderDisplayData.obj
+         Debug.win32\SPSpriteDisplayData.obj
+         Debug.win32\SPAnimationData.obj
+         Debug.win32\SPArmatureData.obj
+         Debug.win32\SPBoneData.obj
+         Debug.win32\SPContourData.obj
+         Debug.win32\SPFrameData.obj
+         Debug.win32\SPJsonData.obj
+         Debug.win32\SPMovementBoneData.obj
+         Debug.win32\SPMovementData.obj
+         Debug.win32\SPMovementFrameData.obj
+         Debug.win32\SPNode.obj
+         Debug.win32\SPTextureData.obj
+         Debug.win32\CCTexture2DMutable.obj
+         Debug.win32\SPArmatureDisplayFactory.obj
+         Debug.win32\SPDisplayFactory.obj
+         Debug.win32\SPDisplayFactoryManager.obj
+         Debug.win32\SPParticleDisplayFactory.obj
+         Debug.win32\SPShaderDisplayFactory.obj
+         Debug.win32\SPSpriteDisplayFactory.obj
+         Debug.win32\SPContourPoints.obj
+         Debug.win32\SPContourSprite.obj
+         Debug.win32\SPDecorativeDisplay.obj
+         Debug.win32\SPDisplayManager.obj
+         Debug.win32\SPShaderNode.obj
+         Debug.win32\json_reader.obj
+         Debug.win32\json_value.obj
+         Debug.win32\json_writer.obj
+         Debug.win32\SPContentJsonDictionary.obj
+         Debug.win32\SPArmature.obj
+         Debug.win32\SPBone.obj
+         Debug.win32\SPArmatureDataManager.obj
+         Debug.win32\SPBatchNode.obj
+         Debug.win32\SPBatchNodeManager.obj
+         Debug.win32\SPDataReaderHelper.obj
+         Debug.win32\SPTransformHelp.obj
+         Debug.win32\SPTweenFunction.obj
+         Debug.win32\SPUtilMath.obj
+         Debug.win32\tinystr.obj
+         Debug.win32\tinyxml.obj
+         Debug.win32\tinyxmlerror.obj
+         Debug.win32\tinyxmlparser.obj
+         Debug.win32\SpotLightLayer.obj
+         Debug.win32\Target.obj
+         Debug.win32\TemporaryPromptLayer.obj
+         Debug.win32\TimeAppendEffect.obj
+         Debug.win32\main.obj
+         D:\TheMiners\projects\GoldMiner\proj.win32\Debug.win32\libcocos2d.lib
+         D:\TheMiners\projects\GoldMiner\proj.win32\Debug.win32\libCocosDenshion.lib
+         D:\TheMiners\projects\GoldMiner\proj.win32\Debug.win32\libExtensions.lib
+         D:\TheMiners\projects\GoldMiner\proj.win32\Debug.win32\libBox2D.lib
+         D:\TheMiners\projects\GoldMiner\proj.win32\Debug.win32\libchipmunk.lib
+     1>Alignment.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+     1>Debug.win32\CCTexture2DMutable.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Debug.win32\json_reader.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Debug.win32\json_value.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Debug.win32\json_writer.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Debug.win32\tinystr.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Debug.win32\tinyxml.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Debug.win32\tinyxmlerror.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+     1>Debug.win32\tinyxmlparser.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+         MyProject.vcxproj -> D:\TheMiners\projects\GoldMiner\proj.win32\Debug.win32\GoldMiner.exe
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(1)正在节点 2 上生成“D:\TheMiners\cocos2dx\proj.win32\cocos2d.vcxproj”(3:4) (GetCopyToOutputDirectoryItems 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     3>已完成生成项目“D:\TheMiners\cocos2dx\proj.win32\cocos2d.vcxproj”(GetCopyToOutputDirectoryItems 个目标)的操作。
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(1)正在节点 2 上生成“D:\TheMiners\extensions\proj.win32\libExtensions.vcxproj”(4:4) (GetCopyToOutputDirectoryItems 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     4>已完成生成项目“D:\TheMiners\extensions\proj.win32\libExtensions.vcxproj”(GetCopyToOutputDirectoryItems 个目标)的操作。
+     1>项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(1)正在节点 2 上生成“D:\TheMiners\external\chipmunk\proj.win32\chipmunk.vcxproj”(5:4) (GetCopyToOutputDirectoryItems 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     5>已完成生成项目“D:\TheMiners\external\chipmunk\proj.win32\chipmunk.vcxproj”(GetCopyToOutputDirectoryItems 个目标)的操作。
+     1>已完成生成项目“D:\TheMiners\projects\GoldMiner\proj.win32\MyProject.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:09:16.23

@@ -1,0 +1,83 @@
+<skeleton name="bajienew" frameRate="24" version="2.0">
+ <armatures>
+  <armature name="bajie">
+   <b name="bjdongzuo" x="17.5" y="-20.5" kX="0" kY="0" cX="1" cY="1" pX="56" pY="70" z="0">
+    <d name="bjshou01"/>
+    <d name="bjshou02"/>
+    <d name="bjshou03"/>
+    <d name="bjshou04"/>
+    <d name="bjshou05"/>
+    <d name="bjshou06"/>
+    <d name="bjshou07"/>
+    <d name="bjkaixin01"/>
+    <d name="bjkaixin02"/>
+    <d name="bjkaixin03"/>
+    <d name="bjkaixin04"/>
+    <d name="bjkaixin05"/>
+    <d name="bjkaixin06"/>
+   </b>
+   <b name="bjhan" x="-45.95" y="-45.65" kX="0" kY="0" cX="1" cY="1" pX="12" pY="19" z="1">
+    <d name="bjhan"/>
+   </b>
+   <b name="bjxin" x="-52.95" y="-35.65" kX="0" kY="0" cX="1" cY="1" pX="23" pY="14" z="1">
+    <d name="bjxin"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="bajie">
+   <mov name="bajiedaiji" dr="2" to="6" drTW="10" lp="1" twE="2">
+    <b name="bjdongzuo" sc="1" dl="0">
+     <f x="17.5" y="-20.5" cocos2d_x="-38" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="56" pY="70" z="0" dI="0" dr="2"/>
+    </b>
+   </mov>
+   <mov name="bajieshou" dr="8" to="0" drTW="22" lp="1" twE="NaN">
+    <b name="bjdongzuo" sc="1" dl="0">
+     <f x="17.5" y="-20.5" cocos2d_x="-38" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="56" pY="70" z="0" dI="0" dr="1"/>
+     <f x="17.5" y="-20.5" cocos2d_x="-38" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="56" pY="70" z="0" dI="1" dr="1"/>
+     <f x="17.5" y="-20.5" cocos2d_x="-38" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="56" pY="70" z="0" dI="2" dr="1"/>
+     <f x="17.5" y="-20.5" cocos2d_x="-38" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="56" pY="70" z="0" dI="3" dr="2"/>
+     <f x="17.5" y="-20.5" cocos2d_x="-38" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="56" pY="70" z="0" dI="4" dr="1"/>
+     <f x="17.5" y="-20.5" cocos2d_x="-38" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="56" pY="70" z="0" dI="5" dr="1"/>
+     <f x="17.5" y="-20.5" cocos2d_x="-38" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="56" pY="70" z="0" dI="6" dr="1"/>
+    </b>
+    <b name="bjhan" sc="1" dl="0">
+     <f dr="3" dI="-1"/>
+     <f x="-45.95" y="-45.65" cocos2d_x="-57.95" cocos2d_y="-64.15" kX="0" kY="0" cX="1" cY="1" pX="12" pY="19" z="1" dI="0" dr="4"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="bajiekaixin" dr="7" to="0" drTW="22" lp="1" twE="NaN">
+    <b name="bjdongzuo" sc="1" dl="0">
+     <f x="17.5" y="-20.5" cocos2d_x="-38" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="56" pY="70" z="0" dI="7" dr="2"/>
+     <f x="17.5" y="-20.5" cocos2d_x="-38" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="56" pY="70" z="0" dI="8" dr="1"/>
+     <f x="17.5" y="-20.5" cocos2d_x="-38" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="56" pY="70" z="0" dI="9" dr="1"/>
+     <f x="17.5" y="-20.5" cocos2d_x="-38" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="56" pY="70" z="0" dI="10" dr="1"/>
+     <f x="17.5" y="-20.5" cocos2d_x="-38" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="56" pY="70" z="0" dI="11" dr="1"/>
+     <f x="17.5" y="-20.5" cocos2d_x="-38" cocos2d_y="-90" kX="0" kY="0" cX="1" cY="1" pX="56" pY="70" z="0" dI="12" dr="1"/>
+    </b>
+    <b name="bjxin" sc="1" dl="0">
+     <f dr="3" dI="-1"/>
+     <f x="-52.95" y="-35.65" cocos2d_x="-75.45" cocos2d_y="-49.65" kX="0" kY="0" cX="1" cY="1" pX="23" pY="14" z="1" dI="0" dr="4"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="bajienew" width="512" height="1024">
+  <SubTexture name="bjxin" width="45" height="28" cocos2d_pX="0" cocos2d_pY="0" x="452" y="0"/>
+  <SubTexture name="bjhan" width="24" height="37" cocos2d_pX="0" cocos2d_pY="0" x="452" y="30"/>
+  <SubTexture name="bjkaixin06" width="111" height="139" cocos2d_pX="0" cocos2d_pY="0" x="226" y="0"/>
+  <SubTexture name="bjkaixin05" width="111" height="139" cocos2d_pX="0" cocos2d_pY="0" x="113" y="282"/>
+  <SubTexture name="bjkaixin04" width="111" height="139" cocos2d_pX="0" cocos2d_pY="0" x="113" y="141"/>
+  <SubTexture name="bjkaixin03" width="111" height="139" cocos2d_pX="0" cocos2d_pY="0" x="0" y="423"/>
+  <SubTexture name="bjkaixin02" width="111" height="139" cocos2d_pX="0" cocos2d_pY="0" x="339" y="141"/>
+  <SubTexture name="bjkaixin01" width="111" height="139" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+  <SubTexture name="bjshou07" width="111" height="139" cocos2d_pX="0" cocos2d_pY="0" x="113" y="0"/>
+  <SubTexture name="bjshou06" width="111" height="139" cocos2d_pX="0" cocos2d_pY="0" x="0" y="141"/>
+  <SubTexture name="bjshou05" width="111" height="139" cocos2d_pX="0" cocos2d_pY="0" x="226" y="141"/>
+  <SubTexture name="bjshou04" width="111" height="139" cocos2d_pX="0" cocos2d_pY="0" x="0" y="282"/>
+  <SubTexture name="bjshou03" width="111" height="139" cocos2d_pX="0" cocos2d_pY="0" x="226" y="282"/>
+  <SubTexture name="bjshou02" width="111" height="139" cocos2d_pX="0" cocos2d_pY="0" x="339" y="282"/>
+  <SubTexture name="bjshou01" width="111" height="139" cocos2d_pX="0" cocos2d_pY="0" x="339" y="0"/>
+ </TextureAtlas>
+</skeleton>

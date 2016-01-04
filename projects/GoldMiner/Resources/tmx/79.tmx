@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="bg05" tilewidth="32" tileheight="32">
+  <image source="bg05.png" width="800" height="480"/>
+ </tileset>
+ <layer name="bg" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJwNwwl0CAQAANBhzH3NbdjYGGaY+2bmnDk2xzbXhrnnNkKhO8rZQVGUWwflvo8OR3eUW9FBuSu38t/7P1tAQEB2cxhoTnMZZG7zmNd85reABS1kYYtY1GCLWdwSlrSUpS1jWUMsZ3krGGqYFa1kuBFWtoqRVrWa1Y2yhtHWtJa1jbGOda1nfRvY0EY2tolNbWZzW9jSVsba2jjb2NZ2treDHY23kwl2totd7WaiSXa3hz3tZbIpptrbPva1n/1NM90BDnSQGQ52iEMd5nBHONJMRznaMY51nOOd4ESznORkn3CKU53mkz7ldGc406d9xmd9zud9wRd9yVnO9mVfcY5zned8F7jQV33N133DRS72Td9yiUt923dc5nLf9T1XuNJVrnaNa13net/3Az/0Ize40Y/9xE1udotb3eZ2d7jTXe52j3vd534PeNBP/czP/cJDHvaIR/3Sr/zab/zW7/zeHzzmcX/0J0940lOe9oxnPed5f/YXL3jRX/3N3/3DS172T//yile95nVveNNb/u0//utt73jXe973gQ995H/+b0A2zG4OA81pLoPMbR7zms/8FrCghSxsEYsabDGLW8KSlrK0ZSxriOUsbwVDDbOilQw3wspWMdKqVrO6UdYw2prWsrYx1rGu9axvAxvayMY2sanNbG4LW9rKWFsbZxvb2s72drCj8XYywc52savdTDTJ7vawp71MNsVUe9vHvvazv2mmO8CBDjLDwQ5xqMMc7ghHmukoRzvGsY5zvBOcaJaTfAzdiZvd
+  </data>
+ </layer>
+ <objectgroup name="logic" width="25" height="15" opacity="0.9">
+  <object x="0" y="0" width="32" height="32">
+   <properties>
+    <property name="coins" value="2500"/>
+    <property name="map" value="05"/>
+    <property name="nextscene" value="80"/>
+    <property name="nextscene2" value="-1"/>
+    <property name="scene" value="79"/>
+    <property name="time" value="60"/>
+    <property name="typeid" value="999"/>
+   </properties>
+  </object>
+  <object x="436" y="348" width="64" height="64">
+   <properties>
+    <property name="cloudin" value="2"/>
+    <property name="point" value="2"/>
+    <property name="typeid" value="04004"/>
+   </properties>
+  </object>
+  <object x="511" y="377" width="32" height="32">
+   <properties>
+    <property name="cloudin" value="2"/>
+    <property name="point" value="3"/>
+    <property name="typeid" value="04003"/>
+   </properties>
+  </object>
+  <object x="394" y="376" width="32" height="32">
+   <properties>
+    <property name="cloudin" value="2"/>
+    <property name="point" value="1"/>
+    <property name="typeid" value="04009"/>
+   </properties>
+  </object>
+  <object x="387" y="346" width="160" height="120">
+   <properties>
+    <property name="cloudid" value="2"/>
+    <property name="cloudpoint1" value="1"/>
+    <property name="cloudpoint2" value="2"/>
+    <property name="cloudpoint3" value="1"/>
+    <property name="direction" value="2"/>
+    <property name="speed" value="6"/>
+    <property name="typeid" value="09001"/>
+   </properties>
+  </object>
+  <object x="369" y="279" width="40" height="40">
+   <properties>
+    <property name="typeid" value="05017"/>
+   </properties>
+  </object>
+  <object x="104" y="382" width="40" height="40">
+   <properties>
+    <property name="typeid" value="05017"/>
+   </properties>
+  </object>
+  <object x="719" y="239" width="40" height="40">
+   <properties>
+    <property name="typeid" value="05017"/>
+   </properties>
+  </object>
+  <object x="618" y="378" width="40" height="40">
+   <properties>
+    <property name="typeid" value="05017"/>
+   </properties>
+  </object>
+  <object x="39" y="239" width="40" height="40">
+   <properties>
+    <property name="typeid" value="05017"/>
+   </properties>
+  </object>
+  <object x="204" y="169" width="40" height="40">
+   <properties>
+    <property name="typeid" value="05017"/>
+   </properties>
+  </object>
+  <object x="44" y="172" width="50" height="30">
+   <properties>
+    <property name="pointcount" value="2"/>
+    <property name="pointx1" value="689"/>
+    <property name="pointx2" value="0"/>
+    <property name="pointx3" value="0"/>
+    <property name="pointy1" value="172"/>
+    <property name="pointy2" value="0"/>
+    <property name="pointy3" value="0"/>
+    <property name="starttype" value="0"/>
+    <property name="typeid" value="05008"/>
+   </properties>
+  </object>
+  <object x="128" y="172" width="50" height="30">
+   <properties>
+    <property name="pointcount" value="2"/>
+    <property name="pointx1" value="689"/>
+    <property name="pointx2" value="0"/>
+    <property name="pointx3" value="0"/>
+    <property name="pointy1" value="172"/>
+    <property name="pointy2" value="0"/>
+    <property name="pointy3" value="0"/>
+    <property name="starttype" value="0"/>
+    <property name="typeid" value="05008"/>
+   </properties>
+  </object>
+  <object x="620" y="288" width="50" height="30">
+   <properties>
+    <property name="pointcount" value="2"/>
+    <property name="pointx1" value="44"/>
+    <property name="pointx2" value="0"/>
+    <property name="pointx3" value="0"/>
+    <property name="pointy1" value="288"/>
+    <property name="pointy2" value="0"/>
+    <property name="pointy3" value="0"/>
+    <property name="starttype" value="0"/>
+    <property name="typeid" value="05008"/>
+   </properties>
+  </object>
+  <object x="688" y="288" width="50" height="30">
+   <properties>
+    <property name="pointcount" value="2"/>
+    <property name="pointx1" value="44"/>
+    <property name="pointx2" value="0"/>
+    <property name="pointx3" value="0"/>
+    <property name="pointy1" value="288"/>
+    <property name="pointy2" value="0"/>
+    <property name="pointy3" value="0"/>
+    <property name="starttype" value="0"/>
+    <property name="typeid" value="05008"/>
+   </properties>
+  </object>
+  <object x="338" y="376" width="32" height="32">
+   <properties>
+    <property name="cloudin" value="1"/>
+    <property name="point" value="3"/>
+    <property name="typeid" value="04012"/>
+   </properties>
+  </object>
+  <object x="221" y="375" width="32" height="32">
+   <properties>
+    <property name="cloudin" value="1"/>
+    <property name="point" value="1"/>
+    <property name="typeid" value="04017"/>
+   </properties>
+  </object>
+  <object x="214" y="345" width="160" height="120">
+   <properties>
+    <property name="cloudid" value="1"/>
+    <property name="cloudpoint1" value="1"/>
+    <property name="cloudpoint2" value="2"/>
+    <property name="cloudpoint3" value="1"/>
+    <property name="direction" value="1"/>
+    <property name="speed" value="6"/>
+    <property name="typeid" value="09001"/>
+   </properties>
+  </object>
+  <object x="263" y="347" width="64" height="64">
+   <properties>
+    <property name="cloudin" value="1"/>
+    <property name="point" value="2"/>
+    <property name="typeid" value="04002"/>
+   </properties>
+  </object>
+  <object x="538" y="170" width="40" height="40">
+   <properties>
+    <property name="typeid" value="05017"/>
+   </properties>
+  </object>
+  <object x="153" y="286" width="32" height="32">
+   <properties>
+    <property name="cloudin" value="3"/>
+    <property name="point" value="3"/>
+    <property name="typeid" value="04016"/>
+   </properties>
+  </object>
+  <object x="36" y="285" width="32" height="32">
+   <properties>
+    <property name="cloudin" value="3"/>
+    <property name="point" value="1"/>
+    <property name="typeid" value="04009"/>
+   </properties>
+  </object>
+  <object x="29" y="255" width="160" height="120">
+   <properties>
+    <property name="cloudid" value="3"/>
+    <property name="cloudpoint1" value="1"/>
+    <property name="cloudpoint2" value="2"/>
+    <property name="cloudpoint3" value="1"/>
+    <property name="direction" value="2"/>
+    <property name="speed" value="9"/>
+    <property name="typeid" value="09001"/>
+   </properties>
+  </object>
+  <object x="78" y="257" width="64" height="64">
+   <properties>
+    <property name="cloudin" value="3"/>
+    <property name="point" value="2"/>
+    <property name="typeid" value="05015"/>
+   </properties>
+  </object>
+  <object x="333" y="210" width="32" height="32">
+   <properties>
+    <property name="cloudin" value="4"/>
+    <property name="point" value="3"/>
+    <property name="typeid" value="04014"/>
+   </properties>
+  </object>
+  <object x="216" y="209" width="32" height="32">
+   <properties>
+    <property name="cloudin" value="4"/>
+    <property name="point" value="1"/>
+    <property name="typeid" value="04015"/>
+   </properties>
+  </object>
+  <object x="209" y="179" width="160" height="120">
+   <properties>
+    <property name="cloudid" value="4"/>
+    <property name="cloudpoint1" value="1"/>
+    <property name="cloudpoint2" value="2"/>
+    <property name="cloudpoint3" value="1"/>
+    <property name="direction" value="2"/>
+    <property name="speed" value="3"/>
+    <property name="typeid" value="09001"/>
+   </properties>
+  </object>
+  <object x="258" y="181" width="64" height="64">
+   <properties>
+    <property name="cloudin" value="4"/>
+    <property name="point" value="2"/>
+    <property name="typeid" value="04004"/>
+   </properties>
+  </object>
+  <object x="509" y="211" width="32" height="32">
+   <properties>
+    <property name="cloudin" value="5"/>
+    <property name="point" value="3"/>
+    <property name="typeid" value="04012"/>
+   </properties>
+  </object>
+  <object x="392" y="210" width="32" height="32">
+   <properties>
+    <property name="cloudin" value="5"/>
+    <property name="point" value="1"/>
+    <property name="typeid" value="04013"/>
+   </properties>
+  </object>
+  <object x="385" y="180" width="160" height="120">
+   <properties>
+    <property name="cloudid" value="5"/>
+    <property name="cloudpoint1" value="1"/>
+    <property name="cloudpoint2" value="2"/>
+    <property name="cloudpoint3" value="1"/>
+    <property name="direction" value="1"/>
+    <property name="speed" value="3"/>
+    <property name="typeid" value="09001"/>
+   </properties>
+  </object>
+  <object x="434" y="182" width="64" height="64">
+   <properties>
+    <property name="cloudin" value="5"/>
+    <property name="point" value="2"/>
+    <property name="typeid" value="04002"/>
+   </properties>
+  </object>
+  <object x="695" y="376" width="32" height="32">
+   <properties>
+    <property name="cloudin" value="6"/>
+    <property name="point" value="3"/>
+    <property name="typeid" value="04015"/>
+   </properties>
+  </object>
+  <object x="578" y="375" width="32" height="32">
+   <properties>
+    <property name="cloudin" value="6"/>
+    <property name="point" value="1"/>
+    <property name="typeid" value="04012"/>
+   </properties>
+  </object>
+  <object x="571" y="345" width="160" height="120">
+   <properties>
+    <property name="cloudid" value="6"/>
+    <property name="cloudpoint1" value="1"/>
+    <property name="cloudpoint2" value="2"/>
+    <property name="cloudpoint3" value="1"/>
+    <property name="direction" value="1"/>
+    <property name="speed" value="6"/>
+    <property name="typeid" value="09001"/>
+   </properties>
+  </object>
+  <object x="620" y="347" width="64" height="64">
+   <properties>
+    <property name="cloudin" value="6"/>
+    <property name="point" value="2"/>
+    <property name="typeid" value="04002"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

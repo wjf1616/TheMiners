@@ -1,0 +1,86 @@
+<skeleton name="tangsengnew" frameRate="24" version="2.0">
+ <armatures>
+  <armature name="tangseng">
+   <b name="tsdongzuo" x="9.5" y="-25.5" kX="0" kY="0" cX="1" cY="1" pX="48" pY="70" z="0">
+    <d name="tsfang01"/>
+    <d name="tsfang02"/>
+    <d name="tsfang03"/>
+    <d name="tsfang04"/>
+    <d name="tsfang05"/>
+    <d name="tsfang06"/>
+    <d name="tsfang07"/>
+    <d name="tskaixin01"/>
+    <d name="tskaixin02"/>
+    <d name="tskaixin03"/>
+    <d name="tskaixin04"/>
+    <d name="tskaixin05"/>
+    <d name="tskaixin06"/>
+    <d name="tskaixin07"/>
+   </b>
+   <b name="tshan" x="-39.6" y="-40.65" kX="0" kY="0" cX="1" cY="1" pX="10" pY="15" z="1">
+    <d name="tshan"/>
+   </b>
+   <b name="tsxin" x="-50.95" y="-23.65" kX="0" kY="0" cX="1" cY="1" pX="22" pY="14" z="1">
+    <d name="tsxin"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="tangseng">
+   <mov name="tsdaiji" dr="2" to="0" drTW="10" lp="1" twE="NaN">
+    <b name="tsdongzuo" sc="1" dl="0">
+     <f x="9.5" y="-25.5" cocos2d_x="-38" cocos2d_y="-95" kX="0" kY="0" cX="1" cY="1" pX="48" pY="70" z="0" dI="0" dr="2"/>
+    </b>
+   </mov>
+   <mov name="tsfang" dr="8" to="0" drTW="22" lp="1" twE="NaN">
+    <b name="tsdongzuo" sc="1" dl="0">
+     <f x="9.5" y="-25.5" cocos2d_x="-38" cocos2d_y="-95" kX="0" kY="0" cX="1" cY="1" pX="48" pY="70" z="0" dI="0" dr="2"/>
+     <f x="9.5" y="-25.5" cocos2d_x="-38" cocos2d_y="-95" kX="0" kY="0" cX="1" cY="1" pX="48" pY="70" z="0" dI="1" dr="1"/>
+     <f x="9.5" y="-25.5" cocos2d_x="-38" cocos2d_y="-95" kX="0" kY="0" cX="1" cY="1" pX="48" pY="70" z="0" dI="2" dr="1"/>
+     <f x="9.5" y="-25.5" cocos2d_x="-38" cocos2d_y="-95" kX="0" kY="0" cX="1" cY="1" pX="48" pY="70" z="0" dI="3" dr="1"/>
+     <f x="9.5" y="-25.5" cocos2d_x="-38" cocos2d_y="-95" kX="0" kY="0" cX="1" cY="1" pX="48" pY="70" z="0" dI="4" dr="1"/>
+     <f x="9.5" y="-25.5" cocos2d_x="-38" cocos2d_y="-95" kX="0" kY="0" cX="1" cY="1" pX="48" pY="70" z="0" dI="5" dr="1"/>
+     <f x="9.5" y="-25.5" cocos2d_x="-38" cocos2d_y="-95" kX="0" kY="0" cX="1" cY="1" pX="48" pY="70" z="0" dI="6" dr="1"/>
+    </b>
+    <b name="tshan" sc="1" dl="0">
+     <f dr="4" dI="-1"/>
+     <f x="-39.6" y="-40.65" cocos2d_x="-49.1" cocos2d_y="-55.15" kX="0" kY="0" cX="1" cY="1" pX="10" pY="15" z="1" dI="0" dr="3"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="tskaixin" dr="8" to="0" drTW="22" lp="1" twE="NaN">
+    <b name="tsdongzuo" sc="1" dl="0">
+     <f x="9.5" y="-25.5" cocos2d_x="-38" cocos2d_y="-95" kX="0" kY="0" cX="1" cY="1" pX="48" pY="70" z="0" dI="7" dr="2"/>
+     <f x="9.5" y="-25.5" cocos2d_x="-38" cocos2d_y="-95" kX="0" kY="0" cX="1" cY="1" pX="48" pY="70" z="0" dI="8" dr="1"/>
+     <f x="9.5" y="-25.5" cocos2d_x="-38" cocos2d_y="-95" kX="0" kY="0" cX="1" cY="1" pX="48" pY="70" z="0" dI="9" dr="1"/>
+     <f x="9.5" y="-25.5" cocos2d_x="-38" cocos2d_y="-95" kX="0" kY="0" cX="1" cY="1" pX="48" pY="70" z="0" dI="10" dr="1"/>
+     <f x="9.5" y="-25.5" cocos2d_x="-38" cocos2d_y="-95" kX="0" kY="0" cX="1" cY="1" pX="48" pY="70" z="0" dI="11" dr="1"/>
+     <f x="9.5" y="-25.5" cocos2d_x="-38" cocos2d_y="-95" kX="0" kY="0" cX="1" cY="1" pX="48" pY="70" z="0" dI="12" dr="1"/>
+     <f x="9.5" y="-25.5" cocos2d_x="-38" cocos2d_y="-95" kX="0" kY="0" cX="1" cY="1" pX="48" pY="70" z="0" dI="13" dr="1"/>
+    </b>
+    <b name="tsxin" sc="1" dl="0">
+     <f dr="4" dI="-1"/>
+     <f x="-50.95" y="-23.65" cocos2d_x="-72.75" cocos2d_y="-37.4" kX="0" kY="0" cX="1" cY="1" pX="22" pY="14" z="1" dI="0" dr="4"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="tangsengnew" width="512" height="512">
+  <SubTexture name="tsxin" width="44" height="28" cocos2d_pX="0" cocos2d_pY="0" x="388" y="282"/>
+  <SubTexture name="tshan" width="20" height="29" cocos2d_pX="0" cocos2d_pY="0" x="485" y="0"/>
+  <SubTexture name="tskaixin07" width="95" height="139" cocos2d_pX="0" cocos2d_pY="0" x="291" y="0"/>
+  <SubTexture name="tskaixin06" width="95" height="139" cocos2d_pX="0" cocos2d_pY="0" x="388" y="141"/>
+  <SubTexture name="tskaixin05" width="95" height="139" cocos2d_pX="0" cocos2d_pY="0" x="0" y="141"/>
+  <SubTexture name="tskaixin04" width="95" height="139" cocos2d_pX="0" cocos2d_pY="0" x="291" y="282"/>
+  <SubTexture name="tskaixin03" width="95" height="139" cocos2d_pX="0" cocos2d_pY="0" x="194" y="141"/>
+  <SubTexture name="tskaixin02" width="95" height="139" cocos2d_pX="0" cocos2d_pY="0" x="97" y="0"/>
+  <SubTexture name="tskaixin01" width="95" height="139" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+  <SubTexture name="tsfang07" width="95" height="139" cocos2d_pX="0" cocos2d_pY="0" x="388" y="0"/>
+  <SubTexture name="tsfang06" width="95" height="139" cocos2d_pX="0" cocos2d_pY="0" x="97" y="141"/>
+  <SubTexture name="tsfang05" width="95" height="139" cocos2d_pX="0" cocos2d_pY="0" x="291" y="141"/>
+  <SubTexture name="tsfang04" width="95" height="139" cocos2d_pX="0" cocos2d_pY="0" x="0" y="282"/>
+  <SubTexture name="tsfang03" width="95" height="139" cocos2d_pX="0" cocos2d_pY="0" x="97" y="282"/>
+  <SubTexture name="tsfang02" width="95" height="139" cocos2d_pX="0" cocos2d_pY="0" x="194" y="282"/>
+  <SubTexture name="tsfang01" width="95" height="139" cocos2d_pX="0" cocos2d_pY="0" x="194" y="0"/>
+ </TextureAtlas>
+</skeleton>

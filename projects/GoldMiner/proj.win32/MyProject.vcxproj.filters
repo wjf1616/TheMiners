@@ -1,0 +1,1145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CSArmature">
+      <UniqueIdentifier>{941e191b-f247-4614-be4c-a3876da2e914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SPArmature">
+      <UniqueIdentifier>{09373d7c-5d3e-43b7-8e4a-5a51d3b92902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CSArmature\animation">
+      <UniqueIdentifier>{98543f45-bffa-4837-aab9-d8f2e22582ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CSArmature\datas">
+      <UniqueIdentifier>{56d73370-5d10-4d40-baa5-453ab442dcf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CSArmature\display">
+      <UniqueIdentifier>{b31a5b5b-fff5-4b56-bfe0-27025c910ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CSArmature\physics">
+      <UniqueIdentifier>{196fdd81-4195-4fb9-a00c-07a6a86e1023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CSArmature\utils">
+      <UniqueIdentifier>{c681d4b1-08c0-4ac7-907b-69651d8f29d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CSArmature\external_tool">
+      <UniqueIdentifier>{630694ce-9097-45da-a9fc-979cc7ba1158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CSArmature\external_tool\tinyxml">
+      <UniqueIdentifier>{120ddbbc-1083-47de-b386-cb040bb00954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CSArmature\external_tool\Json">
+      <UniqueIdentifier>{51acce5b-5050-43cd-a80a-4b6a99f18ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CSArmature\external_tool\Json\json">
+      <UniqueIdentifier>{bf7624cc-533b-454b-b4d6-4c2a3715f5ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\CSArmature\external_tool\Json\lib_json">
+      <UniqueIdentifier>{75292bda-214e-4db9-a47b-9bdfff39c933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SPArmature\SPArmature">
+      <UniqueIdentifier>{caa29abb-5f27-4581-8927-c699ee273717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SPArmature\tinyxml">
+      <UniqueIdentifier>{7bcf3d61-27e8-4925-b43a-218fd07872c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SPArmature\SPArmature\animation">
+      <UniqueIdentifier>{6f2294ed-10df-4130-a249-340c02cb20ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SPArmature\SPArmature\datas">
+      <UniqueIdentifier>{4bcd4810-27df-4cc5-b82d-c0645b6f9bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SPArmature\SPArmature\display">
+      <UniqueIdentifier>{71bd2dfe-3ed8-4afc-89ea-888497583a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SPArmature\SPArmature\external_tool">
+      <UniqueIdentifier>{200a0331-0392-4721-bc13-6ffaf00fab4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SPArmature\SPArmature\utils">
+      <UniqueIdentifier>{638fb21b-47bd-4133-b438-ffdf870f984c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SPArmature\SPArmature\datas\display_data">
+      <UniqueIdentifier>{b4e60261-01e4-4967-8b45-6d417ec583ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SPArmature\SPArmature\display\display_factory">
+      <UniqueIdentifier>{2cb649c6-7e0a-4bb7-bb3d-6250bcd4ef4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SPArmature\SPArmature\external_tool\Json">
+      <UniqueIdentifier>{37eaa4d4-1a97-464f-9139-cf37662e80ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SPArmature\SPArmature\external_tool\Json\json">
+      <UniqueIdentifier>{af570810-6328-45b8-bc53-024d44ec4495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\SPArmature\SPArmature\external_tool\Json\lib_json">
+      <UniqueIdentifier>{ae657229-6890-4f42-85ea-1634aab76596}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Alignment.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BigGateMenu.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Buddaha.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Carrier.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CartoonLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ChallengeCount.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ChallengeOver.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CostLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CountDownEffect.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DateManger.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DizzySpecialEffect.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DrawLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DynamicTarget.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ExchangeHangerEffect.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ExitLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Explode.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Explosive.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Finger.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameAppend.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameControl.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameOverMenu.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Gate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Global.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GMJson.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GoldenMinerScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HalpLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Hanger.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\IngotDrop.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JewelAppendEffect.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JewelSkillSprite.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LastTimeCountEffect.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\LoadingLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainAppendLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MainLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MusicControl.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MyAboutLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MyScrollView.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\NetWork.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PauseMenu.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PayService.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Pet.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PetParkLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PowerBuff.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PromptLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Prop.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RegisterLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Role.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RoleInformation.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RoleSkillEffect.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Rope.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ScoreAppendEffect.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SelectChallenge.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SelectPet.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SelectRoleAndPet.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SelectRoleAndPropMenu.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sensitization.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SetMenu.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SettingMenu.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Shop.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SimleGateMenu.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Skill.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SlipGuide.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SpotLightLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Target.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TemporaryPromptLayer.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TimeAppendEffect.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\CSArmature.cpp">
+      <Filter>Classes\CSArmature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\CSBone.cpp">
+      <Filter>Classes\CSArmature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\animation\CSAnimation.cpp">
+      <Filter>Classes\CSArmature\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\animation\CSProcessBase.cpp">
+      <Filter>Classes\CSArmature\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\animation\CSTween.cpp">
+      <Filter>Classes\CSArmature\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\datas\CSDatas.cpp">
+      <Filter>Classes\CSArmature\datas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\display\CSBatchNode.cpp">
+      <Filter>Classes\CSArmature\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\display\CSDecorativeDisplay.cpp">
+      <Filter>Classes\CSArmature\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\display\CSDisplayFactory.cpp">
+      <Filter>Classes\CSArmature\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\display\CSDisplayManager.cpp">
+      <Filter>Classes\CSArmature\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\display\CSShaderNode.cpp">
+      <Filter>Classes\CSArmature\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\display\CSSkin.cpp">
+      <Filter>Classes\CSArmature\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\utils\CSArmatureDataManager.cpp">
+      <Filter>Classes\CSArmature\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\utils\CSDataReaderHelper.cpp">
+      <Filter>Classes\CSArmature\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\utils\CSSpriteFrameCacheHelper.cpp">
+      <Filter>Classes\CSArmature\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\utils\CSTransformHelp.cpp">
+      <Filter>Classes\CSArmature\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\utils\CSTweenFunction.cpp">
+      <Filter>Classes\CSArmature\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\utils\CSUtilMath.cpp">
+      <Filter>Classes\CSArmature\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\physics\CSColliderDetector.cpp">
+      <Filter>Classes\CSArmature\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\physics\CSPhysicsWorld.cpp">
+      <Filter>Classes\CSArmature\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\external_tool\CCTexture2DMutable.cpp">
+      <Filter>Classes\CSArmature\external_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\external_tool\GLES-Render.cpp">
+      <Filter>Classes\CSArmature\external_tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\external_tool\tinyxml\tinystr.cpp">
+      <Filter>Classes\CSArmature\external_tool\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\external_tool\tinyxml\tinyxml.cpp">
+      <Filter>Classes\CSArmature\external_tool\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\external_tool\tinyxml\tinyxmlerror.cpp">
+      <Filter>Classes\CSArmature\external_tool\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\external_tool\tinyxml\tinyxmlparser.cpp">
+      <Filter>Classes\CSArmature\external_tool\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\external_tool\Json\lib_json\json_reader.cpp">
+      <Filter>Classes\CSArmature\external_tool\Json\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\external_tool\Json\lib_json\json_value.cpp">
+      <Filter>Classes\CSArmature\external_tool\Json\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\external_tool\Json\lib_json\json_writer.cpp">
+      <Filter>Classes\CSArmature\external_tool\Json\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\tinyxml\tinystr.cpp">
+      <Filter>Classes\SPArmature\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\tinyxml\tinyxml.cpp">
+      <Filter>Classes\SPArmature\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\tinyxml\tinyxmlerror.cpp">
+      <Filter>Classes\SPArmature\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\tinyxml\tinyxmlparser.cpp">
+      <Filter>Classes\SPArmature\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\utils\SPArmatureDataManager.cpp">
+      <Filter>Classes\SPArmature\SPArmature\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\utils\SPBatchNode.cpp">
+      <Filter>Classes\SPArmature\SPArmature\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\utils\SPBatchNodeManager.cpp">
+      <Filter>Classes\SPArmature\SPArmature\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\utils\SPDataReaderHelper.cpp">
+      <Filter>Classes\SPArmature\SPArmature\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\utils\SPTransformHelp.cpp">
+      <Filter>Classes\SPArmature\SPArmature\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\utils\SPTweenFunction.cpp">
+      <Filter>Classes\SPArmature\SPArmature\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\utils\SPUtilMath.cpp">
+      <Filter>Classes\SPArmature\SPArmature\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\SPArmature.cpp">
+      <Filter>Classes\SPArmature\SPArmature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\SPBone.cpp">
+      <Filter>Classes\SPArmature\SPArmature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPAnimationData.cpp">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPArmatureData.cpp">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPBoneData.cpp">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPContourData.cpp">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPFrameData.cpp">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPJsonData.cpp">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPMovementBoneData.cpp">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPMovementData.cpp">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPMovementFrameData.cpp">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPNode.cpp">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPTextureData.cpp">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPArmatureDisplayData.cpp">
+      <Filter>Classes\SPArmature\SPArmature\datas\display_data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPDisplayData.cpp">
+      <Filter>Classes\SPArmature\SPArmature\datas\display_data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPParticleDisplayData.cpp">
+      <Filter>Classes\SPArmature\SPArmature\datas\display_data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPShaderDisplayData.cpp">
+      <Filter>Classes\SPArmature\SPArmature\datas\display_data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPSpriteDisplayData.cpp">
+      <Filter>Classes\SPArmature\SPArmature\datas\display_data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\animation\SPAnimation.cpp">
+      <Filter>Classes\SPArmature\SPArmature\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\animation\SPProcessBase.cpp">
+      <Filter>Classes\SPArmature\SPArmature\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\animation\SPTween.cpp">
+      <Filter>Classes\SPArmature\SPArmature\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\CCTexture2DMutable.cpp">
+      <Filter>Classes\SPArmature\SPArmature\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\SPContourPoints.cpp">
+      <Filter>Classes\SPArmature\SPArmature\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\SPContourSprite.cpp">
+      <Filter>Classes\SPArmature\SPArmature\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\SPDecorativeDisplay.cpp">
+      <Filter>Classes\SPArmature\SPArmature\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\SPDisplayManager.cpp">
+      <Filter>Classes\SPArmature\SPArmature\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\SPShaderNode.cpp">
+      <Filter>Classes\SPArmature\SPArmature\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPArmatureDisplayFactory.cpp">
+      <Filter>Classes\SPArmature\SPArmature\display\display_factory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPDisplayFactory.cpp">
+      <Filter>Classes\SPArmature\SPArmature\display\display_factory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPDisplayFactoryManager.cpp">
+      <Filter>Classes\SPArmature\SPArmature\display\display_factory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPParticleDisplayFactory.cpp">
+      <Filter>Classes\SPArmature\SPArmature\display\display_factory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPShaderDisplayFactory.cpp">
+      <Filter>Classes\SPArmature\SPArmature\display\display_factory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPSpriteDisplayFactory.cpp">
+      <Filter>Classes\SPArmature\SPArmature\display\display_factory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\external_tool\Json\SPContentJsonDictionary.cpp">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_reader.cpp">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_value.cpp">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_writer.cpp">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json\lib_json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\CSArmature\external_tool\Json\CSContentJsonDictionary.cpp">
+      <Filter>Classes\CSArmature\external_tool\Json</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AboutLayerLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Alignment.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BigGateMenu.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BigGateMenuLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Buddaha.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Carrier.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CartoonLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CartoonLayerLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ChallengeCount.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ChallengeCountLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ChallengeLayerLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ChallengeOver.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ChallengeOverLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CostLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CostLayerLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CountDownEffect.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CountDownEffectLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DateManger.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DizzySpecialEffect.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DrawLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DrawLayerLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DynamicTarget.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ExchangeHangerEffect.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ExitLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ExitLayerLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Explode.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Explosive.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Finger.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAppend.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameAppendLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameControl.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameControlLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOverMenu.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameOverMenuLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Gate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Global.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GMJson.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GoldenMinerScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GuideLayerLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HalpLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HalpLayerLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Hanger.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\IngotDrop.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JewelAppendEffect.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JewelSkillSprite.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LastTimeCountEffect.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadingLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoadingLayerLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainAppendLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainAppendLayerLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainLayerLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MusicControl.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MyAboutLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MyScrollView.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\NetWork.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PauseMenu.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PauseMenuLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PayService.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Pet.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PetParkLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PetParkLayerLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PowerBuff.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PromptLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PromptLayerLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Prop.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RegisterLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RegisterLayerLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\resource.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Role.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RoleInformation.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RoleInformationLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RoleSkillEffect.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RoleSkillEffectLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Rope.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ScoreAppendEffect.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SelectChallenge.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SelectChallengeLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SelectPet.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SelectPetLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SelectRoleAndPet.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SelectRoleAndPetLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SelectRoleAndPropMenu.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SelectRoleAndPropMenuLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sensitization.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SetMenu.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SetMenuLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SettingMenu.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SettingMenuLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Shop.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ShopLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SimleGateMenu.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SimleGateMenuLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Skill.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SlipGuide.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SpotLightLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Target.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TemporaryPromptLayer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TemporaryPromptLayerLoader.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TimeAppendEffect.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\CSArmature.h">
+      <Filter>Classes\CSArmature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\CSBone.h">
+      <Filter>Classes\CSArmature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\animation\CSAnimation.h">
+      <Filter>Classes\CSArmature\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\animation\CSProcessBase.h">
+      <Filter>Classes\CSArmature\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\animation\CSTween.h">
+      <Filter>Classes\CSArmature\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\datas\CSDatas.h">
+      <Filter>Classes\CSArmature\datas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\display\CSBatchNode.h">
+      <Filter>Classes\CSArmature\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\display\CSDecorativeDisplay.h">
+      <Filter>Classes\CSArmature\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\display\CSDisplayFactory.h">
+      <Filter>Classes\CSArmature\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\display\CSDisplayManager.h">
+      <Filter>Classes\CSArmature\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\display\CSShaderNode.h">
+      <Filter>Classes\CSArmature\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\display\CSSkin.h">
+      <Filter>Classes\CSArmature\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\utils\CSArmatureDataManager.h">
+      <Filter>Classes\CSArmature\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\utils\CSArmatureDefine.h">
+      <Filter>Classes\CSArmature\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\utils\CSConstValue.h">
+      <Filter>Classes\CSArmature\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\utils\CSDataReaderHelper.h">
+      <Filter>Classes\CSArmature\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\utils\CSSpriteFrameCacheHelper.h">
+      <Filter>Classes\CSArmature\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\utils\CSTransformHelp.h">
+      <Filter>Classes\CSArmature\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\utils\CSTweenFunction.h">
+      <Filter>Classes\CSArmature\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\utils\CSUtilMath.h">
+      <Filter>Classes\CSArmature\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\physics\CSColliderDetector.h">
+      <Filter>Classes\CSArmature\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\physics\CSPhysicsWorld.h">
+      <Filter>Classes\CSArmature\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\external_tool\CCTexture2DMutable.h">
+      <Filter>Classes\CSArmature\external_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\external_tool\GLES-Render.h">
+      <Filter>Classes\CSArmature\external_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\external_tool\sigslot.h">
+      <Filter>Classes\CSArmature\external_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\external_tool\tinyxml\tinystr.h">
+      <Filter>Classes\CSArmature\external_tool\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\external_tool\tinyxml\tinyxml.h">
+      <Filter>Classes\CSArmature\external_tool\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\json\autolink.h">
+      <Filter>Classes\CSArmature\external_tool\Json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\json\config.h">
+      <Filter>Classes\CSArmature\external_tool\Json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\json\features.h">
+      <Filter>Classes\CSArmature\external_tool\Json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\json\forwards.h">
+      <Filter>Classes\CSArmature\external_tool\Json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\json\json_lib.h">
+      <Filter>Classes\CSArmature\external_tool\Json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\json\reader.h">
+      <Filter>Classes\CSArmature\external_tool\Json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\json\value.h">
+      <Filter>Classes\CSArmature\external_tool\Json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\json\writer.h">
+      <Filter>Classes\CSArmature\external_tool\Json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\lib_json\json_batchallocator.h">
+      <Filter>Classes\CSArmature\external_tool\Json\lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\lib_json\json_tool.h">
+      <Filter>Classes\CSArmature\external_tool\Json\lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\tinyxml\tinystr.h">
+      <Filter>Classes\SPArmature\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\tinyxml\tinyxml.h">
+      <Filter>Classes\SPArmature\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\utils\SPArmatureDataManager.h">
+      <Filter>Classes\SPArmature\SPArmature\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\utils\SPArmatureDefine.h">
+      <Filter>Classes\SPArmature\SPArmature\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\utils\SPBatchNode.h">
+      <Filter>Classes\SPArmature\SPArmature\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\utils\SPBatchNodeManager.h">
+      <Filter>Classes\SPArmature\SPArmature\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\utils\SPConstValue.h">
+      <Filter>Classes\SPArmature\SPArmature\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\utils\SPDataReaderHelper.h">
+      <Filter>Classes\SPArmature\SPArmature\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\utils\SPTransformHelp.h">
+      <Filter>Classes\SPArmature\SPArmature\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\utils\SPTweenFunction.h">
+      <Filter>Classes\SPArmature\SPArmature\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\utils\SPUtilMath.h">
+      <Filter>Classes\SPArmature\SPArmature\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\SPArmature.h">
+      <Filter>Classes\SPArmature\SPArmature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\SPBone.h">
+      <Filter>Classes\SPArmature\SPArmature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPAnimationData.h">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPArmatureData.h">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPBoneData.h">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPContourData.h">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPFrameData.h">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPJsonData.h">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPMovementBoneData.h">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPMovementData.h">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPMovementFrameData.h">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPNode.h">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPTextureData.h">
+      <Filter>Classes\SPArmature\SPArmature\datas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPArmatureDisplayData.h">
+      <Filter>Classes\SPArmature\SPArmature\datas\display_data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPDisplayData.h">
+      <Filter>Classes\SPArmature\SPArmature\datas\display_data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPParticleDisplayData.h">
+      <Filter>Classes\SPArmature\SPArmature\datas\display_data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPShaderDisplayData.h">
+      <Filter>Classes\SPArmature\SPArmature\datas\display_data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPSpriteDisplayData.h">
+      <Filter>Classes\SPArmature\SPArmature\datas\display_data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\animation\SPAnimation.h">
+      <Filter>Classes\SPArmature\SPArmature\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\animation\SPProcessBase.h">
+      <Filter>Classes\SPArmature\SPArmature\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\animation\SPTween.h">
+      <Filter>Classes\SPArmature\SPArmature\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\CCTexture2DMutable.h">
+      <Filter>Classes\SPArmature\SPArmature\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\SPContourPoints.h">
+      <Filter>Classes\SPArmature\SPArmature\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\SPContourSprite.h">
+      <Filter>Classes\SPArmature\SPArmature\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\SPDecorativeDisplay.h">
+      <Filter>Classes\SPArmature\SPArmature\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\SPDisplayManager.h">
+      <Filter>Classes\SPArmature\SPArmature\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\SPShaderNode.h">
+      <Filter>Classes\SPArmature\SPArmature\display</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPArmatureDisplayFactory.h">
+      <Filter>Classes\SPArmature\SPArmature\display\display_factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPDisplayFactory.h">
+      <Filter>Classes\SPArmature\SPArmature\display\display_factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPDisplayFactoryManager.h">
+      <Filter>Classes\SPArmature\SPArmature\display\display_factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPParticleDisplayFactory.h">
+      <Filter>Classes\SPArmature\SPArmature\display\display_factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPShaderDisplayFactory.h">
+      <Filter>Classes\SPArmature\SPArmature\display\display_factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPSpriteDisplayFactory.h">
+      <Filter>Classes\SPArmature\SPArmature\display\display_factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\sigslot.h">
+      <Filter>Classes\SPArmature\SPArmature\external_tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\SPContentJsonDictionary.h">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\json\autolink.h">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\json\config.h">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\json\features.h">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\json\forwards.h">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\json\json_lib.h">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\json\reader.h">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\json\value.h">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\json\writer.h">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_batchallocator.h">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json\lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_tool.h">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json\lib_json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\CSContentJsonDictionary.h">
+      <Filter>Classes\CSArmature\external_tool\Json</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\CSArmature\external_tool\Json\lib_json\json_internalarray.inl">
+      <Filter>Classes\CSArmature\external_tool\Json\lib_json</Filter>
+    </None>
+    <None Include="..\Classes\CSArmature\external_tool\Json\lib_json\json_internalmap.inl">
+      <Filter>Classes\CSArmature\external_tool\Json\lib_json</Filter>
+    </None>
+    <None Include="..\Classes\CSArmature\external_tool\Json\lib_json\json_valueiterator.inl">
+      <Filter>Classes\CSArmature\external_tool\Json\lib_json</Filter>
+    </None>
+    <None Include="..\Classes\CSArmature\external_tool\Json\lib_json\sconscript">
+      <Filter>Classes\CSArmature\external_tool\Json\lib_json</Filter>
+    </None>
+    <None Include="..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_internalarray.inl">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json\lib_json</Filter>
+    </None>
+    <None Include="..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_internalmap.inl">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json\lib_json</Filter>
+    </None>
+    <None Include="..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_valueiterator.inl">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json\lib_json</Filter>
+    </None>
+    <None Include="..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\sconscript">
+      <Filter>Classes\SPArmature\SPArmature\external_tool\Json\lib_json</Filter>
+    </None>
+  </ItemGroup>
+</Project>

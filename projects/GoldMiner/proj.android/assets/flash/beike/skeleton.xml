@@ -1,0 +1,144 @@
+<skeleton name="dabeike" frameRate="8" version="2.0">
+ <armatures>
+  <armature name="dabeike">
+   <b name="dbkkeshang1" x="48.35" y="-9" kX="0" kY="0" cX="1" cY="1" pX="70" pY="27" z="0">
+    <d name="dbkkeshang1"/>
+   </b>
+   <b name="dbkkexia" x="48" y="21" kX="0" kY="0" cX="1" cY="1" pX="69" pY="22" z="1">
+    <d name="dbkkexia"/>
+   </b>
+   <b name="dbkkeshang2" x="46.35" y="-10.9" kX="0" kY="0" cX="1" cY="1" pX="71" pY="29" z="0">
+    <d name="dbkkeshang2"/>
+   </b>
+   <b name="dbkkeshang3" x="45.95" y="-14.65" kX="0" kY="0" cX="1" cY="1" pX="70" pY="37" z="0">
+    <d name="dbkkeshang3"/>
+   </b>
+   <b name="dbkeshang4" x="48.95" y="-18.65" kX="0" kY="0" cX="1" cY="1" pX="68" pY="49" z="0">
+    <d name="dbkkeshang4"/>
+   </b>
+   <b name="dbkzhenzhu" x="47.95" y="-6" kX="0" kY="0" cX="1" cY="1" pX="21" pY="21" z="1">
+    <d name="dbkzhenzhu"/>
+   </b>
+   <b name="dbkgaoguang1" x="40.35" y="-10.4" kX="0" kY="0" cX="1" cY="1" pX="20" pY="28" z="3">
+    <d name="dbkgaoguang1"/>
+   </b>
+   <b name="dbkgaoguang2" x="40.9" y="-10.15" kX="0" kY="0" cX="1" cY="1" pX="24" pY="37" z="3">
+    <d name="dbkgaoguang2"/>
+   </b>
+   <b name="dbkgaoguang3" x="43.35" y="-15.65" kX="0" kY="0" cX="1" cY="1" pX="34" pY="50" z="3">
+    <d name="dbkgaoguang3"/>
+   </b>
+   <b name="dbkgaoguang4" x="39.35" y="-11.65" kX="0" kY="0" cX="1" cY="1" pX="38" pY="51" z="3">
+    <d name="dbkgaoguang4"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="dabeike">
+   <mov name="dbkheshang" dr="2" to="0" drTW="2" lp="" twE="NaN">
+    <b name="dbkkeshang1" sc="1" dl="0">
+     <f x="48.35" y="-9" cocos2d_x="-21.9" cocos2d_y="-36.1" kX="0" kY="0" cX="1" cY="1" pX="70" pY="27" z="0" dI="0" dr="2"/>
+    </b>
+    <b name="dbkkexia" sc="1" dl="0">
+     <f x="48" y="21" cocos2d_x="-21" cocos2d_y="-0.6" kX="0" kY="0" cX="1" cY="1" pX="69" pY="22" z="1" dI="0" dr="2"/>
+    </b>
+   </mov>
+   <mov name="dbkdakai" dr="7" to="0" drTW="7" lp="0" twE="NaN">
+    <b name="dbkkeshang1" sc="1" dl="0">
+     <f x="48.35" y="-9" cocos2d_x="-21.9" cocos2d_y="-36.1" kX="0" kY="0" cX="1" cY="1" pX="70" pY="27" z="0" dI="0" dr="2"/>
+     <f dr="5" dI="-1"/>
+    </b>
+    <b name="dbkkeshang2" sc="1" dl="0">
+     <f dr="2" dI="-1"/>
+     <f x="46.35" y="-10.9" cocos2d_x="-24.4" cocos2d_y="-39.65" kX="0" kY="0" cX="1" cY="1" pX="71" pY="29" z="0" dI="0" dr="1"/>
+     <f dr="4" dI="-1"/>
+    </b>
+    <b name="dbkkeshang3" sc="1" dl="0">
+     <f dr="3" dI="-1"/>
+     <f x="45.95" y="-14.65" cocos2d_x="-24.45" cocos2d_y="-51.75" kX="0" kY="0" cX="1" cY="1" pX="70" pY="37" z="0" dI="0" dr="1"/>
+     <f dr="3" dI="-1"/>
+    </b>
+    <b name="dbkeshang4" sc="1" dl="0">
+     <f dr="4" dI="-1"/>
+     <f x="48.95" y="-18.65" cocos2d_x="-19.3" cocos2d_y="-67.6" kX="0" kY="0" cX="1" cY="1" pX="68" pY="49" z="0" dI="0" dr="3"/>
+    </b>
+    <b name="dbkzhenzhu" sc="1" dl="0">
+     <f dr="3" dI="-1"/>
+     <f x="47.95" y="-6" cocos2d_x="26.95" cocos2d_y="-26.95" kX="0" kY="0" cX="1" cY="1" pX="21" pY="21" z="1" dI="0" dr="1"/>
+     <f x="47.95" y="-6" cocos2d_x="26.95" cocos2d_y="-26.95" kX="0" kY="0" cX="1" cY="1" pX="21" pY="21" z="1" dI="0" dr="3"/>
+    </b>
+    <b name="dbkkexia" sc="1" dl="0">
+     <f x="48" y="21" cocos2d_x="-21" cocos2d_y="-0.6" kX="0" kY="0" cX="1" cY="1" pX="69" pY="22" z="1" dI="0" dr="2"/>
+     <f x="48" y="21" cocos2d_x="-21" cocos2d_y="-0.6" kX="0" kY="0" cX="1" cY="1" pX="69" pY="22" z="1" dI="0" dr="1"/>
+     <f x="48" y="21" cocos2d_x="-21" cocos2d_y="-0.6" kX="0" kY="0" cX="1" cY="1" pX="69" pY="22" z="2" dI="0" dr="4"/>
+    </b>
+   </mov>
+   <mov name="dbkshanguang" dr="14" to="0" drTW="14" lp="1" twE="NaN">
+    <b name="dbkeshang4" sc="1" dl="0">
+     <f x="48.95" y="-18.65" cocos2d_x="-19.3" cocos2d_y="-67.6" kX="0" kY="0" cX="1" cY="1" pX="68" pY="49" z="0" dI="0" dr="1"/>
+     <f x="48.95" y="-18.65" cocos2d_x="-19.3" cocos2d_y="-67.6" kX="0" kY="0" cX="1" cY="1" pX="68" pY="49" z="0" dI="0" dr="1"/>
+     <f x="48.95" y="-18.65" cocos2d_x="-19.3" cocos2d_y="-67.6" kX="0" kY="0" cX="1" cY="1" pX="68" pY="49" z="0" dI="0" dr="1"/>
+     <f x="48.95" y="-18.65" cocos2d_x="-19.3" cocos2d_y="-67.6" kX="0" kY="0" cX="1" cY="1" pX="68" pY="49" z="0" dI="0" dr="1"/>
+     <f x="48.95" y="-18.65" cocos2d_x="-19.3" cocos2d_y="-67.6" kX="0" kY="0" cX="1" cY="1" pX="68" pY="49" z="0" dI="0" dr="1"/>
+     <f x="48.95" y="-18.65" cocos2d_x="-19.3" cocos2d_y="-67.6" kX="0" kY="0" cX="1" cY="1" pX="68" pY="49" z="0" dI="0" dr="9"/>
+    </b>
+    <b name="dbkzhenzhu" sc="1" dl="0">
+     <f x="47.95" y="-6" cocos2d_x="26.95" cocos2d_y="-26.95" kX="0" kY="0" cX="1" cY="1" pX="21" pY="21" z="1" dI="0" dr="1"/>
+     <f x="47.95" y="-6" cocos2d_x="26.95" cocos2d_y="-26.95" kX="0" kY="0" cX="1" cY="1" pX="21" pY="21" z="1" dI="0" dr="1"/>
+     <f x="47.95" y="-6" cocos2d_x="26.95" cocos2d_y="-26.95" kX="0" kY="0" cX="1" cY="1" pX="21" pY="21" z="1" dI="0" dr="1"/>
+     <f x="47.95" y="-6" cocos2d_x="26.95" cocos2d_y="-26.95" kX="0" kY="0" cX="1" cY="1" pX="21" pY="21" z="1" dI="0" dr="1"/>
+     <f x="47.95" y="-6" cocos2d_x="26.95" cocos2d_y="-26.95" kX="0" kY="0" cX="1" cY="1" pX="21" pY="21" z="1" dI="0" dr="1"/>
+     <f x="47.95" y="-6" cocos2d_x="26.95" cocos2d_y="-26.95" kX="0" kY="0" cX="1" cY="1" pX="21" pY="21" z="1" dI="0" dr="9"/>
+    </b>
+    <b name="dbkkexia" sc="1" dl="0">
+     <f x="48" y="21" cocos2d_x="-21" cocos2d_y="-0.6" kX="0" kY="0" cX="1" cY="1" pX="69" pY="22" z="2" dI="0" dr="1"/>
+     <f x="48" y="21" cocos2d_x="-21" cocos2d_y="-0.6" kX="0" kY="0" cX="1" cY="1" pX="69" pY="22" z="2" dI="0" dr="1"/>
+     <f x="48" y="21" cocos2d_x="-21" cocos2d_y="-0.6" kX="0" kY="0" cX="1" cY="1" pX="69" pY="22" z="2" dI="0" dr="1"/>
+     <f x="48" y="21" cocos2d_x="-21" cocos2d_y="-0.6" kX="0" kY="0" cX="1" cY="1" pX="69" pY="22" z="2" dI="0" dr="1"/>
+     <f x="48" y="21" cocos2d_x="-21" cocos2d_y="-0.6" kX="0" kY="0" cX="1" cY="1" pX="69" pY="22" z="2" dI="0" dr="1"/>
+     <f x="48" y="21" cocos2d_x="-21" cocos2d_y="-0.6" kX="0" kY="0" cX="1" cY="1" pX="69" pY="22" z="2" dI="0" dr="9"/>
+    </b>
+    <b name="dbkgaoguang1" sc="1" dl="0">
+     <f dr="1" dI="-1"/>
+     <f x="40.35" y="-10.4" cocos2d_x="20.45" cocos2d_y="-38.65" kX="0" kY="0" cX="1" cY="1" pX="20" pY="28" z="3" dI="0" dr="1"/>
+     <f dr="12" dI="-1"/>
+    </b>
+    <b name="dbkgaoguang2" sc="1" dl="0">
+     <f dr="2" dI="-1"/>
+     <f x="40.9" y="-10.15" cocos2d_x="16.55" cocos2d_y="-47.15" kX="0" kY="0" cX="1" cY="1" pX="24" pY="37" z="3" dI="0" dr="1"/>
+     <f dr="11" dI="-1"/>
+    </b>
+    <b name="dbkgaoguang3" sc="1" dl="0">
+     <f dr="3" dI="-1"/>
+     <f x="43.35" y="-15.65" cocos2d_x="9.85" cocos2d_y="-65.4" kX="0" kY="0" cX="1" cY="1" pX="34" pY="50" z="3" dI="0" dr="1"/>
+     <f dr="10" dI="-1"/>
+    </b>
+    <b name="dbkgaoguang4" sc="1" dl="0">
+     <f dr="4" dI="-1"/>
+     <f x="39.35" y="-11.65" cocos2d_x="1.65" cocos2d_y="-62.15" kX="0" kY="0" cX="1" cY="1" pX="38" pY="51" z="3" dI="0" dr="1"/>
+     <f dr="9" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="wuzhenzhu" dr="2" to="0" drTW="10" lp="1" twE="2">
+    <b name="dbkeshang4" sc="1" dl="0">
+     <f x="48.95" y="-18.65" cocos2d_x="-19.3" cocos2d_y="-67.6" kX="0" kY="0" cX="1" cY="1" pX="68" pY="49" z="0" dI="0" dr="2"/>
+    </b>
+    <b name="dbkkexia" sc="1" dl="0">
+     <f x="48" y="21" cocos2d_x="-21" cocos2d_y="-0.6" kX="0" kY="0" cX="1" cY="1" pX="69" pY="22" z="1" dI="0" dr="2"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="dabeike" width="512" height="256">
+  <SubTexture name="dbkgaoguang4" width="76" height="101" cocos2d_pX="0" cocos2d_pY="0" x="426" y="0"/>
+  <SubTexture name="dbkgaoguang3" width="67" height="100" cocos2d_pX="0" cocos2d_pY="0" x="0" y="100"/>
+  <SubTexture name="dbkgaoguang2" width="49" height="74" cocos2d_pX="0" cocos2d_pY="0" x="69" y="100"/>
+  <SubTexture name="dbkgaoguang1" width="40" height="57" cocos2d_pX="0" cocos2d_pY="0" x="425" y="103"/>
+  <SubTexture name="dbkzhenzhu" width="42" height="42" cocos2d_pX="0" cocos2d_pY="0" x="467" y="103"/>
+  <SubTexture name="dbkkeshang4" width="137" height="98" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+  <SubTexture name="dbkkeshang3" width="141" height="75" cocos2d_pX="0" cocos2d_pY="0" x="139" y="0"/>
+  <SubTexture name="dbkkeshang2" width="142" height="58" cocos2d_pX="0" cocos2d_pY="0" x="282" y="0"/>
+  <SubTexture name="dbkkexia" width="138" height="44" cocos2d_pX="0" cocos2d_pY="0" x="139" y="77"/>
+  <SubTexture name="dbkkeshang1" width="141" height="55" cocos2d_pX="0" cocos2d_pY="0" x="282" y="60"/>
+ </TextureAtlas>
+</skeleton>

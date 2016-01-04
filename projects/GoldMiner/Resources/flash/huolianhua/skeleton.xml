@@ -1,0 +1,114 @@
+<skeleton name="huolianhua" frameRate="8" version="2.0">
+ <armatures>
+  <armature name="huolianhua">
+   <b name="hlhhuo1" x="33.35" y="-5" kX="0" kY="0" cX="1" cY="1" pX="59" pY="53" z="0">
+    <d name="hlhhuo1"/>
+   </b>
+   <b name="hlhhuo2" x="35.35" y="-3.65" kX="0" kY="0" cX="1" cY="1" pX="60" pY="51" z="0">
+    <d name="hlhhuo2"/>
+   </b>
+   <b name="hlhhuo3" x="33" y="-2" kX="0" kY="0" cX="1" cY="1" pX="58" pY="52" z="0">
+    <d name="hlhhuo3"/>
+   </b>
+   <b name="hlhhong" x="32.2" y="6.05" kX="0" kY="0" cX="1" cY="1" pX="46" pY="36" z="1">
+    <d name="hlhhong"/>
+   </b>
+   <b name="hlhfaguang" x="35.35" y="8" kX="0" kY="0" cX="1" cY="1" pX="60" pY="45" z="0">
+    <d name="hlhfaguang"/>
+   </b>
+   <b name="hlhlan" x="31.85" y="9.25" kX="0" kY="0" cX="1" cY="1" pX="46" pY="34" z="1">
+    <d name="hlhlan"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="huolianhua">
+   <mov name="hlhhong" dr="10" to="0" drTW="10" lp="1" twE="NaN">
+    <b name="hlhhuo1" sc="1" dl="0">
+     <f x="33.35" y="-5" cocos2d_x="-25.65" cocos2d_y="-58.2" kX="0" kY="0" cX="1" cY="1" pX="59" pY="53" z="0" dI="0" dr="1"/>
+     <f dr="1" dI="-1"/>
+     <f x="33.35" y="-5" cocos2d_x="-25.65" cocos2d_y="-58.2" kX="0" kY="0" cX="1" cY="1" pX="59" pY="53" z="0" dI="0" dr="1"/>
+     <f dr="2" dI="-1"/>
+     <f x="33.35" y="-5" cocos2d_x="-25.65" cocos2d_y="-58.2" kX="0" kY="0" cX="1" cY="1" pX="59" pY="53" z="0" dI="0" dr="1"/>
+     <f dr="4" dI="-1"/>
+    </b>
+    <b name="hlhhuo2" sc="1" dl="0">
+     <f dr="1" dI="-1"/>
+     <f x="35.35" y="-3.65" cocos2d_x="-24.15" cocos2d_y="-55.1" kX="0" kY="0" cX="1" cY="1" pX="60" pY="51" z="0" dI="0" dr="1"/>
+     <f dr="1" dI="-1"/>
+     <f x="35.35" y="-3.65" cocos2d_x="-24.15" cocos2d_y="-55.1" kX="0" kY="0" cX="1" cY="1" pX="60" pY="51" z="0" dI="0" dr="1"/>
+     <f dr="2" dI="-1"/>
+     <f x="35.35" y="-3.65" cocos2d_x="-24.15" cocos2d_y="-55.1" kX="0" kY="0" cX="1" cY="1" pX="60" pY="51" z="0" dI="0" dr="1"/>
+     <f dr="1" dI="-1"/>
+     <f x="35.35" y="-3.65" cocos2d_x="-24.15" cocos2d_y="-55.1" kX="0" kY="0" cX="1" cY="1" pX="60" pY="51" z="0" dI="0" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+    <b name="hlhhuo3" sc="1" dl="0">
+     <f dr="4" dI="-1"/>
+     <f x="33" y="-2" cocos2d_x="-25.35" cocos2d_y="-53.9" kX="0" kY="0" cX="1" cY="1" pX="58" pY="52" z="0" dI="0" dr="1"/>
+     <f dr="2" dI="-1"/>
+     <f x="33" y="-2" cocos2d_x="-25.35" cocos2d_y="-53.9" kX="0" kY="0" cX="1" cY="1" pX="58" pY="52" z="0" dI="0" dr="1"/>
+     <f dr="1" dI="-1"/>
+     <f x="33" y="-2" cocos2d_x="-25.35" cocos2d_y="-53.9" kX="0" kY="0" cX="1" cY="1" pX="58" pY="52" z="0" dI="0" dr="1"/>
+    </b>
+    <b name="hlhhong" sc="1" dl="0">
+     <f x="32.2" y="6.05" cocos2d_x="-14.05" cocos2d_y="-30.1" kX="0" kY="0" cX="1" cY="1" pX="46" pY="36" z="1" dI="0" dr="10"/>
+    </b>
+   </mov>
+   <mov name="hlhshanshuo" dr="7" to="0" drTW="7" lp="1" twE="NaN">
+    <b name="hlhfaguang" sc="1" dl="0">
+     <f x="35.35" y="8" cocos2d_x="-25" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="60" pY="45" z="0" dI="0" dr="2"/>
+     <f x="35.35" y="8" cocos2d_x="-25" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="60" pY="45" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="75" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="35.35" y="8" cocos2d_x="-25" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="60" pY="45" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="50" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="35.35" y="8" cocos2d_x="-25" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="60" pY="45" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="75" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="35.35" y="8" cocos2d_x="-25" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="60" pY="45" z="0" dI="0" dr="2"/>
+    </b>
+    <b name="hlhlan" sc="1" dl="0">
+     <f x="31.85" y="9.25" cocos2d_x="-14.45" cocos2d_y="-25.05" kX="0" kY="0" cX="1" cY="1" pX="46" pY="34" z="1" dI="0" dr="2"/>
+     <f x="31.85" y="9.25" cocos2d_x="-14.45" cocos2d_y="-25.05" kX="0" kY="0" cX="1" cY="1" pX="46" pY="34" z="1" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="75" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="31.85" y="9.25" cocos2d_x="-14.45" cocos2d_y="-25.05" kX="0" kY="0" cX="1" cY="1" pX="46" pY="34" z="1" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="50" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="31.85" y="9.25" cocos2d_x="-14.45" cocos2d_y="-25.05" kX="0" kY="0" cX="1" cY="1" pX="46" pY="34" z="1" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="75" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="31.85" y="9.25" cocos2d_x="-14.45" cocos2d_y="-25.05" kX="0" kY="0" cX="1" cY="1" pX="46" pY="34" z="1" dI="0" dr="2"/>
+    </b>
+   </mov>
+   <mov name="hlhlanfaguang" dr="12" to="0" drTW="12" lp="1" twE="NaN">
+    <b name="hlhfaguang" sc="1" dl="0">
+     <f x="35.35" y="8" cocos2d_x="-25" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="60" pY="45" z="0" dI="0" dr="3"/>
+     <f x="35.35" y="8" cocos2d_x="-25" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="60" pY="45" z="0" dI="0" dr="2">
+      <colorTransform a="0" r="0" g="0" b="0" aM="79" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="35.35" y="8" cocos2d_x="-25" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="60" pY="45" z="0" dI="0" dr="2">
+      <colorTransform a="0" r="0" g="0" b="0" aM="64" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="35.35" y="8" cocos2d_x="-25" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="60" pY="45" z="0" dI="0" dr="2">
+      <colorTransform a="0" r="0" g="0" b="0" aM="79" rM="100" gM="100" bM="100"/>
+     </f>
+     <f x="35.35" y="8" cocos2d_x="-25" cocos2d_y="-37" kX="0" kY="0" cX="1" cY="1" pX="60" pY="45" z="0" dI="0" dr="3"/>
+    </b>
+    <b name="hlhlan" sc="1" dl="0">
+     <f x="31.85" y="9.25" cocos2d_x="-14.45" cocos2d_y="-25.05" kX="0" kY="0" cX="1" cY="1" pX="46" pY="34" z="1" dI="0" dr="12"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="huolianhua" width="256" height="512">
+  <SubTexture name="hlhlan" width="93" height="69" cocos2d_pX="0" cocos2d_pY="0" x="0" y="184"/>
+  <SubTexture name="hlhfaguang" width="121" height="90" cocos2d_pX="0" cocos2d_pY="0" x="95" y="211"/>
+  <SubTexture name="hlhhong" width="93" height="73" cocos2d_pX="0" cocos2d_pY="0" x="0" y="109"/>
+  <SubTexture name="hlhhuo3" width="117" height="104" cocos2d_pX="0" cocos2d_pY="0" x="121" y="105"/>
+  <SubTexture name="hlhhuo2" width="120" height="103" cocos2d_pX="0" cocos2d_pY="0" x="121" y="0"/>
+  <SubTexture name="hlhhuo1" width="119" height="107" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+ </TextureAtlas>
+</skeleton>

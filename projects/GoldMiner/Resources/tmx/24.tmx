@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="bg02" tilewidth="32" tileheight="32">
+  <image source="bg02.png" width="800" height="480"/>
+ </tileset>
+ <layer name="bg" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJwNwwl0CAQAANBhzH3NbdjYGGaY+2bmnDk2xzbXhrnnNkKhO8rZQVGUWwflvo8OR3eUW9FBuSu38t/7P1tAQEB2cxhoTnMZZG7zmNd85reABS1kYYtY1GCLWdwSlrSUpS1jWUMsZ3krGGqYFa1kuBFWtoqRVrWa1Y2yhtHWtJa1jbGOda1nfRvY0EY2tolNbWZzW9jSVsba2jjb2NZ2treDHY23kwl2totd7WaiSXa3hz3tZbIpptrbPva1n/1NM90BDnSQGQ52iEMd5nBHONJMRznaMY51nOOd4ESznORkn3CKU53mkz7ldGc406d9xmd9zud9wRd9yVnO9mVfcY5zned8F7jQV33N133DRS72Td9yiUt923dc5nLf9T1XuNJVrnaNa13net/3Az/0Ize40Y/9xE1udotb3eZ2d7jTXe52j3vd534PeNBP/czP/cJDHvaIR/3Sr/zab/zW7/zeHzzmcX/0J0940lOe9oxnPed5f/YXL3jRX/3N3/3DS172T//yile95nVveNNb/u0//utt73jXe973gQ995H/+b0A2zG4OA81pLoPMbR7zms/8FrCghSxsEYsabDGLW8KSlrK0ZSxriOUsbwVDDbOilQw3wspWMdKqVrO6UdYw2prWsrYx1rGu9axvAxvayMY2sanNbG4LW9rKWFsbZxvb2s72drCj8XYywc52savdTDTJ7vawp71MNsVUe9vHvvazv2mmO8CBDjLDwQ5xqMMc7ghHmukoRzvGsY5zvBOcaJaTfAzdiZvd
+  </data>
+ </layer>
+ <objectgroup name="logic" width="25" height="15" opacity="0.9">
+  <object x="0" y="0" width="32" height="32">
+   <properties>
+    <property name="coins" value="2500"/>
+    <property name="map" value="02"/>
+    <property name="nextscene" value="25"/>
+    <property name="nextscene2" value="-1"/>
+    <property name="scene" value="24"/>
+    <property name="time" value="60"/>
+    <property name="tips" value="46"/>
+    <property name="typeid" value="999"/>
+   </properties>
+  </object>
+  <object x="110" y="377" width="64" height="64">
+   <properties>
+    <property name="typeid" value="04004"/>
+   </properties>
+  </object>
+  <object x="84" y="266" width="64" height="64">
+   <properties>
+    <property name="typeid" value="04004"/>
+   </properties>
+  </object>
+  <object x="492" y="398" width="32" height="32">
+   <properties>
+    <property name="typeid" value="04009"/>
+   </properties>
+  </object>
+  <object x="536" y="400" width="32" height="32">
+   <properties>
+    <property name="typeid" value="04012"/>
+   </properties>
+  </object>
+  <object x="597" y="306" width="32" height="32">
+   <properties>
+    <property name="typeid" value="04003"/>
+   </properties>
+  </object>
+  <object x="437" y="252" width="64" height="64">
+   <properties>
+    <property name="typeid" value="04004"/>
+   </properties>
+  </object>
+  <object x="640" y="288" width="64" height="64">
+   <properties>
+    <property name="typeid" value="04004"/>
+   </properties>
+  </object>
+  <object x="585" y="372" width="64" height="64">
+   <properties>
+    <property name="typeid" value="04007"/>
+   </properties>
+  </object>
+  <object x="445" y="397" width="32" height="32">
+   <properties>
+    <property name="typeid" value="04017"/>
+   </properties>
+  </object>
+  <object x="249" y="397" width="32" height="32">
+   <properties>
+    <property name="typeid" value="04009"/>
+   </properties>
+  </object>
+  <object x="374" y="301" width="32" height="32">
+   <properties>
+    <property name="typeid" value="04006"/>
+   </properties>
+  </object>
+  <object x="211" y="301" width="64" height="64">
+   <properties>
+    <property name="typeid" value="04007"/>
+   </properties>
+  </object>
+  <object x="103" y="191" width="50" height="30">
+   <properties>
+    <property name="pointcount" value="4"/>
+    <property name="pointx1" value="196"/>
+    <property name="pointx2" value="27"/>
+    <property name="pointx3" value="284"/>
+    <property name="pointy1" value="226"/>
+    <property name="pointy2" value="406"/>
+    <property name="pointy3" value="355"/>
+    <property name="starttype" value="0"/>
+    <property name="typeid" value="05007"/>
+   </properties>
+  </object>
+  <object x="334" y="359" width="96" height="96">
+   <properties>
+    <property name="pointcount" value="2"/>
+    <property name="pointx1" value="0"/>
+    <property name="pointx2" value="0"/>
+    <property name="pointx3" value="0"/>
+    <property name="pointy1" value="0"/>
+    <property name="pointy2" value="0"/>
+    <property name="pointy3" value="0"/>
+    <property name="starttype" value="0"/>
+    <property name="typeid" value="05009"/>
+   </properties>
+  </object>
+  <object x="518" y="201" width="50" height="30">
+   <properties>
+    <property name="pointcount" value="4"/>
+    <property name="pointx1" value="529"/>
+    <property name="pointx2" value="300"/>
+    <property name="pointx3" value="413"/>
+    <property name="pointy1" value="352"/>
+    <property name="pointy2" value="242"/>
+    <property name="pointy3" value="326"/>
+    <property name="starttype" value="0"/>
+    <property name="typeid" value="05007"/>
+   </properties>
+  </object>
+  <object x="660" y="389" width="50" height="30">
+   <properties>
+    <property name="pointcount" value="4"/>
+    <property name="pointx1" value="643"/>
+    <property name="pointx2" value="690"/>
+    <property name="pointx3" value="520"/>
+    <property name="pointy1" value="321"/>
+    <property name="pointy2" value="211"/>
+    <property name="pointy3" value="284"/>
+    <property name="starttype" value="0"/>
+    <property name="typeid" value="05007"/>
+   </properties>
+  </object>
+  <object x="187" y="395" width="32" height="32">
+   <properties>
+    <property name="typeid" value="04015"/>
+   </properties>
+  </object>
+  <object x="338" y="249" width="32" height="32">
+   <properties>
+    <property name="typeid" value="04014"/>
+   </properties>
+  </object>
+  <object x="153" y="226" width="64" height="64">
+   <properties>
+    <property name="typeid" value="04002"/>
+   </properties>
+  </object>
+  <object x="284" y="296" width="64" height="64">
+   <properties>
+    <property name="typeid" value="04002"/>
+   </properties>
+  </object>
+  <object x="510" y="311" width="64" height="64">
+   <properties>
+    <property name="typeid" value="04002"/>
+   </properties>
+  </object>
+  <object x="562" y="236" width="64" height="64">
+   <properties>
+    <property name="typeid" value="04002"/>
+   </properties>
+  </object>
+  <object x="231" y="216" width="64" height="64">
+   <properties>
+    <property name="typeid" value="04004"/>
+   </properties>
+  </object>
+  <object x="154" y="327" width="32" height="32">
+   <properties>
+    <property name="typeid" value="04016"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

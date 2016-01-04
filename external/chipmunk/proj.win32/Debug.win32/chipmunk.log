@@ -1,0 +1,73 @@
+﻿生成启动时间为 2016/1/4 13:17:30。
+     1>项目“D:\TheMiners\external\chipmunk\proj.win32\chipmunk.vcxproj”在节点 2 上(Build 个目标)。
+       项目文件包含 ToolsVersion="12.0" 设置，但此工具集未知或缺失。您可以通过为此工具集安装相应的 .NET Framework 来解决此问题。将项目视为具有 ToolsVersion="4.0" 设置。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include" /I..\include\chipmunk /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4068 /wd4996 /analyze- /errorReport:prompt ..\src\chipmunk.c ..\src\cpArbiter.c ..\src\cpArray.c ..\src\cpBB.c ..\src\cpBBTree.c ..\src\cpBody.c ..\src\cpCollision.c ..\src\cpHashSet.c ..\src\cpPolyShape.c ..\src\cpShape.c ..\src\cpSpace.c ..\src\cpSpaceComponent.c ..\src\cpSpaceHash.c ..\src\cpSpaceQuery.c ..\src\cpSpaceStep.c ..\src\cpSpatialIndex.c ..\src\cpSweep1D.c ..\src\cpVect.c ..\src\constraints\cpConstraint.c ..\src\constraints\cpDampedRotarySpring.c ..\src\constraints\cpDampedSpring.c ..\src\constraints\cpGearJoint.c ..\src\constraints\cpGrooveJoint.c ..\src\constraints\cpPinJoint.c ..\src\constraints\cpPivotJoint.c ..\src\constraints\cpRatchetJoint.c ..\src\constraints\cpRotaryLimitJoint.c ..\src\constraints\cpSimpleMotor.c ..\src\constraints\cpSlideJoint.c
+         cpSlideJoint.c
+         cpSimpleMotor.c
+         cpRotaryLimitJoint.c
+         cpRatchetJoint.c
+         cpPivotJoint.c
+         cpPinJoint.c
+         cpGrooveJoint.c
+         cpGearJoint.c
+         cpDampedSpring.c
+         cpDampedRotarySpring.c
+         cpConstraint.c
+         cpVect.c
+         cpSweep1D.c
+         cpSpatialIndex.c
+         cpSpaceStep.c
+         cpSpaceQuery.c
+         cpSpaceHash.c
+         cpSpaceComponent.c
+         cpSpace.c
+         cpShape.c
+         正在生成代码...
+         正在编译...
+         cpPolyShape.c
+         cpHashSet.c
+         cpCollision.c
+         cpBody.c
+         cpBBTree.c
+         cpBB.c
+         cpArray.c
+         cpArbiter.c
+         chipmunk.c
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"D:\TheMiners\projects\GoldMiner\proj.win32\Debug.win32\libchipmunk.lib" /NOLOGO Debug.win32\chipmunk.obj
+         Debug.win32\cpArbiter.obj
+         Debug.win32\cpArray.obj
+         Debug.win32\cpBB.obj
+         Debug.win32\cpBBTree.obj
+         Debug.win32\cpBody.obj
+         Debug.win32\cpCollision.obj
+         Debug.win32\cpHashSet.obj
+         Debug.win32\cpPolyShape.obj
+         Debug.win32\cpShape.obj
+         Debug.win32\cpSpace.obj
+         Debug.win32\cpSpaceComponent.obj
+         Debug.win32\cpSpaceHash.obj
+         Debug.win32\cpSpaceQuery.obj
+         Debug.win32\cpSpaceStep.obj
+         Debug.win32\cpSpatialIndex.obj
+         Debug.win32\cpSweep1D.obj
+         Debug.win32\cpVect.obj
+         Debug.win32\cpConstraint.obj
+         Debug.win32\cpDampedRotarySpring.obj
+         Debug.win32\cpDampedSpring.obj
+         Debug.win32\cpGearJoint.obj
+         Debug.win32\cpGrooveJoint.obj
+         Debug.win32\cpPinJoint.obj
+         Debug.win32\cpPivotJoint.obj
+         Debug.win32\cpRatchetJoint.obj
+         Debug.win32\cpRotaryLimitJoint.obj
+         Debug.win32\cpSimpleMotor.obj
+         Debug.win32\cpSlideJoint.obj
+         chipmunk.vcxproj -> D:\TheMiners\projects\GoldMiner\proj.win32\Debug.win32\libchipmunk.lib
+     1>已完成生成项目“D:\TheMiners\external\chipmunk\proj.win32\chipmunk.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.17

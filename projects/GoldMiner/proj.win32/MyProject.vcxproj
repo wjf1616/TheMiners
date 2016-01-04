@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{76A39BB2-9B84-4C65-98A5-654D86B86F2A}</ProjectGuid>
+    <RootNamespace>test_win32</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>GoldMiner</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '10.0'">v100</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0'">v110</PlatformToolset>
+    <PlatformToolset Condition="'$(VisualStudioVersion)' == '11.0' and exists('$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A')">v110_xp</PlatformToolset>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration).win32\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>$(MSBuildProgramFiles32)\Microsoft SDKs\Windows\v7.1A\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;..;$(ProjectDir)..\Classes\CSArmature;$(ProjectDir)..\Classes\CSArmature\utils;$(ProjectDir)..\Classes\CSArmature\animation;$(ProjectDir)..\Classes\CSArmature\datas;$(ProjectDir)..\Classes\CSArmature\display;$(ProjectDir)..\Classes\CSArmature\physics;$(ProjectDir)..\Classes\CSArmature\external_tool;$(ProjectDir)..\Classes\CSArmature\external_tool\Json;$(ProjectDir)..\Classes\CSArmature\external_tool\Json\json;$(ProjectDir)..\Classes\CSArmature\external_tool\Json\lib_json;$(ProjectDir)..\Classes\CSArmature\external_tool\tinyxml;$(ProjectDir)..\Classes\SPArmature;$(ProjectDir)..\Classes\SPArmature\SPArmature;$(ProjectDir)..\Classes\SPArmature\SPArmature\animation;$(ProjectDir)..\Classes\SPArmature\SPArmature\datas;$(ProjectDir)..\Classes\SPArmature\SPArmature\datas\display_data;$(ProjectDir)..\Classes\SPArmature\SPArmature\utils;$(ProjectDir)..\Classes\SPArmature\SPArmature\display;$(ProjectDir)..\Classes\SPArmature\SPArmature\display\display_factory;$(ProjectDir)..\Classes\SPArmature\SPArmature\external_tool;$(ProjectDir)..\Classes\SPArmature\SPArmature\external_tool\Json;$(ProjectDir)..\Classes\SPArmature\SPArmature\external_tool\Json\json;$(ProjectDir)..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;libiconv.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;..\Classes;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4251;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreLinkEvent>
+      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"
+xcopy /Y /Q "$(ProjectDir)..\..\..\external\libwebsockets\win32\lib\*.*" "$(OutDir)"</Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\Alignment.cpp" />
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\BigGateMenu.cpp" />
+    <ClCompile Include="..\Classes\Buddaha.cpp" />
+    <ClCompile Include="..\Classes\Carrier.cpp" />
+    <ClCompile Include="..\Classes\CartoonLayer.cpp" />
+    <ClCompile Include="..\Classes\ChallengeCount.cpp" />
+    <ClCompile Include="..\Classes\ChallengeOver.cpp" />
+    <ClCompile Include="..\Classes\CostLayer.cpp" />
+    <ClCompile Include="..\Classes\CountDownEffect.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\animation\CSAnimation.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\animation\CSProcessBase.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\animation\CSTween.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\CSArmature.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\CSBone.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\datas\CSDatas.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\display\CSBatchNode.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\display\CSDecorativeDisplay.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\display\CSDisplayFactory.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\display\CSDisplayManager.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\display\CSShaderNode.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\display\CSSkin.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\external_tool\CCTexture2DMutable.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\external_tool\GLES-Render.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\external_tool\Json\CSContentJsonDictionary.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\external_tool\Json\lib_json\json_reader.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\external_tool\Json\lib_json\json_value.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\external_tool\Json\lib_json\json_writer.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\external_tool\tinyxml\tinystr.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\external_tool\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\external_tool\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\external_tool\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\physics\CSColliderDetector.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\physics\CSPhysicsWorld.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\utils\CSArmatureDataManager.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\utils\CSDataReaderHelper.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\utils\CSSpriteFrameCacheHelper.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\utils\CSTransformHelp.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\utils\CSTweenFunction.cpp" />
+    <ClCompile Include="..\Classes\CSArmature\utils\CSUtilMath.cpp" />
+    <ClCompile Include="..\Classes\DateManger.cpp" />
+    <ClCompile Include="..\Classes\DizzySpecialEffect.cpp" />
+    <ClCompile Include="..\Classes\DrawLayer.cpp" />
+    <ClCompile Include="..\Classes\DynamicTarget.cpp" />
+    <ClCompile Include="..\Classes\ExchangeHangerEffect.cpp" />
+    <ClCompile Include="..\Classes\ExitLayer.cpp" />
+    <ClCompile Include="..\Classes\Explode.cpp" />
+    <ClCompile Include="..\Classes\Explosive.cpp" />
+    <ClCompile Include="..\Classes\Finger.cpp" />
+    <ClCompile Include="..\Classes\GameAppend.cpp" />
+    <ClCompile Include="..\Classes\GameControl.cpp" />
+    <ClCompile Include="..\Classes\GameOverMenu.cpp" />
+    <ClCompile Include="..\Classes\Gate.cpp" />
+    <ClCompile Include="..\Classes\Global.cpp" />
+    <ClCompile Include="..\Classes\GMJson.cpp" />
+    <ClCompile Include="..\Classes\GoldenMinerScene.cpp" />
+    <ClCompile Include="..\Classes\HalpLayer.cpp" />
+    <ClCompile Include="..\Classes\Hanger.cpp" />
+    <ClCompile Include="..\Classes\IngotDrop.cpp" />
+    <ClCompile Include="..\Classes\JewelAppendEffect.cpp" />
+    <ClCompile Include="..\Classes\JewelSkillSprite.cpp" />
+    <ClCompile Include="..\Classes\LastTimeCountEffect.cpp" />
+    <ClCompile Include="..\Classes\LoadingLayer.cpp" />
+    <ClCompile Include="..\Classes\MainAppendLayer.cpp" />
+    <ClCompile Include="..\Classes\MainLayer.cpp" />
+    <ClCompile Include="..\Classes\MusicControl.cpp" />
+    <ClCompile Include="..\Classes\MyAboutLayer.cpp" />
+    <ClCompile Include="..\Classes\MyScrollView.cpp" />
+    <ClCompile Include="..\Classes\NetWork.cpp" />
+    <ClCompile Include="..\Classes\PauseMenu.cpp" />
+    <ClCompile Include="..\Classes\PayService.cpp" />
+    <ClCompile Include="..\Classes\Pet.cpp" />
+    <ClCompile Include="..\Classes\PetParkLayer.cpp" />
+    <ClCompile Include="..\Classes\Player.cpp" />
+    <ClCompile Include="..\Classes\PowerBuff.cpp" />
+    <ClCompile Include="..\Classes\PromptLayer.cpp" />
+    <ClCompile Include="..\Classes\Prop.cpp" />
+    <ClCompile Include="..\Classes\RegisterLayer.cpp" />
+    <ClCompile Include="..\Classes\Role.cpp" />
+    <ClCompile Include="..\Classes\RoleInformation.cpp" />
+    <ClCompile Include="..\Classes\RoleSkillEffect.cpp" />
+    <ClCompile Include="..\Classes\Rope.cpp" />
+    <ClCompile Include="..\Classes\ScoreAppendEffect.cpp" />
+    <ClCompile Include="..\Classes\SelectChallenge.cpp" />
+    <ClCompile Include="..\Classes\SelectPet.cpp" />
+    <ClCompile Include="..\Classes\SelectRoleAndPet.cpp" />
+    <ClCompile Include="..\Classes\SelectRoleAndPropMenu.cpp" />
+    <ClCompile Include="..\Classes\Sensitization.cpp" />
+    <ClCompile Include="..\Classes\SetMenu.cpp" />
+    <ClCompile Include="..\Classes\SettingMenu.cpp" />
+    <ClCompile Include="..\Classes\Shop.cpp" />
+    <ClCompile Include="..\Classes\SimleGateMenu.cpp" />
+    <ClCompile Include="..\Classes\Skill.cpp" />
+    <ClCompile Include="..\Classes\SlipGuide.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\animation\SPAnimation.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\animation\SPProcessBase.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\animation\SPTween.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPArmatureDisplayData.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPDisplayData.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPParticleDisplayData.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPShaderDisplayData.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPSpriteDisplayData.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPAnimationData.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPArmatureData.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPBoneData.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPContourData.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPFrameData.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPJsonData.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPMovementBoneData.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPMovementData.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPMovementFrameData.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPNode.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\datas\SPTextureData.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\CCTexture2DMutable.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPArmatureDisplayFactory.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPDisplayFactory.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPDisplayFactoryManager.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPParticleDisplayFactory.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPShaderDisplayFactory.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPSpriteDisplayFactory.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\SPContourPoints.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\SPContourSprite.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\SPDecorativeDisplay.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\SPDisplayManager.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\display\SPShaderNode.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_reader.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_value.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_writer.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\external_tool\Json\SPContentJsonDictionary.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\SPArmature.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\SPBone.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\utils\SPArmatureDataManager.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\utils\SPBatchNode.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\utils\SPBatchNodeManager.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\utils\SPDataReaderHelper.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\utils\SPTransformHelp.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\utils\SPTweenFunction.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\SPArmature\utils\SPUtilMath.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\tinyxml\tinystr.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\Classes\SPArmature\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="..\Classes\SpotLightLayer.cpp" />
+    <ClCompile Include="..\Classes\Target.cpp" />
+    <ClCompile Include="..\Classes\TemporaryPromptLayer.cpp" />
+    <ClCompile Include="..\Classes\TimeAppendEffect.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AboutLayerLoader.h" />
+    <ClInclude Include="..\Classes\Alignment.h" />
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\BigGateMenu.h" />
+    <ClInclude Include="..\Classes\BigGateMenuLoader.h" />
+    <ClInclude Include="..\Classes\Buddaha.h" />
+    <ClInclude Include="..\Classes\Carrier.h" />
+    <ClInclude Include="..\Classes\CartoonLayer.h" />
+    <ClInclude Include="..\Classes\CartoonLayerLoader.h" />
+    <ClInclude Include="..\Classes\ChallengeCount.h" />
+    <ClInclude Include="..\Classes\ChallengeCountLoader.h" />
+    <ClInclude Include="..\Classes\ChallengeLayerLoader.h" />
+    <ClInclude Include="..\Classes\ChallengeOver.h" />
+    <ClInclude Include="..\Classes\ChallengeOverLoader.h" />
+    <ClInclude Include="..\Classes\CostLayer.h" />
+    <ClInclude Include="..\Classes\CostLayerLoader.h" />
+    <ClInclude Include="..\Classes\CountDownEffect.h" />
+    <ClInclude Include="..\Classes\CountDownEffectLoader.h" />
+    <ClInclude Include="..\Classes\CSArmature\animation\CSAnimation.h" />
+    <ClInclude Include="..\Classes\CSArmature\animation\CSProcessBase.h" />
+    <ClInclude Include="..\Classes\CSArmature\animation\CSTween.h" />
+    <ClInclude Include="..\Classes\CSArmature\CSArmature.h" />
+    <ClInclude Include="..\Classes\CSArmature\CSBone.h" />
+    <ClInclude Include="..\Classes\CSArmature\datas\CSDatas.h" />
+    <ClInclude Include="..\Classes\CSArmature\display\CSBatchNode.h" />
+    <ClInclude Include="..\Classes\CSArmature\display\CSDecorativeDisplay.h" />
+    <ClInclude Include="..\Classes\CSArmature\display\CSDisplayFactory.h" />
+    <ClInclude Include="..\Classes\CSArmature\display\CSDisplayManager.h" />
+    <ClInclude Include="..\Classes\CSArmature\display\CSShaderNode.h" />
+    <ClInclude Include="..\Classes\CSArmature\display\CSSkin.h" />
+    <ClInclude Include="..\Classes\CSArmature\external_tool\CCTexture2DMutable.h" />
+    <ClInclude Include="..\Classes\CSArmature\external_tool\GLES-Render.h" />
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\CSContentJsonDictionary.h" />
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\json\autolink.h" />
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\json\config.h" />
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\json\features.h" />
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\json\forwards.h" />
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\json\json_lib.h" />
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\json\reader.h" />
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\json\value.h" />
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\json\writer.h" />
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\lib_json\json_batchallocator.h" />
+    <ClInclude Include="..\Classes\CSArmature\external_tool\Json\lib_json\json_tool.h" />
+    <ClInclude Include="..\Classes\CSArmature\external_tool\sigslot.h" />
+    <ClInclude Include="..\Classes\CSArmature\external_tool\tinyxml\tinystr.h" />
+    <ClInclude Include="..\Classes\CSArmature\external_tool\tinyxml\tinyxml.h" />
+    <ClInclude Include="..\Classes\CSArmature\physics\CSColliderDetector.h" />
+    <ClInclude Include="..\Classes\CSArmature\physics\CSPhysicsWorld.h" />
+    <ClInclude Include="..\Classes\CSArmature\utils\CSArmatureDataManager.h" />
+    <ClInclude Include="..\Classes\CSArmature\utils\CSArmatureDefine.h" />
+    <ClInclude Include="..\Classes\CSArmature\utils\CSConstValue.h" />
+    <ClInclude Include="..\Classes\CSArmature\utils\CSDataReaderHelper.h" />
+    <ClInclude Include="..\Classes\CSArmature\utils\CSSpriteFrameCacheHelper.h" />
+    <ClInclude Include="..\Classes\CSArmature\utils\CSTransformHelp.h" />
+    <ClInclude Include="..\Classes\CSArmature\utils\CSTweenFunction.h" />
+    <ClInclude Include="..\Classes\CSArmature\utils\CSUtilMath.h" />
+    <ClInclude Include="..\Classes\DateManger.h" />
+    <ClInclude Include="..\Classes\DizzySpecialEffect.h" />
+    <ClInclude Include="..\Classes\DrawLayer.h" />
+    <ClInclude Include="..\Classes\DrawLayerLoader.h" />
+    <ClInclude Include="..\Classes\DynamicTarget.h" />
+    <ClInclude Include="..\Classes\ExchangeHangerEffect.h" />
+    <ClInclude Include="..\Classes\ExitLayer.h" />
+    <ClInclude Include="..\Classes\ExitLayerLoader.h" />
+    <ClInclude Include="..\Classes\Explode.h" />
+    <ClInclude Include="..\Classes\Explosive.h" />
+    <ClInclude Include="..\Classes\Finger.h" />
+    <ClInclude Include="..\Classes\GameAppend.h" />
+    <ClInclude Include="..\Classes\GameAppendLoader.h" />
+    <ClInclude Include="..\Classes\GameControl.h" />
+    <ClInclude Include="..\Classes\GameControlLoader.h" />
+    <ClInclude Include="..\Classes\GameOverMenu.h" />
+    <ClInclude Include="..\Classes\GameOverMenuLoader.h" />
+    <ClInclude Include="..\Classes\Gate.h" />
+    <ClInclude Include="..\Classes\Global.h" />
+    <ClInclude Include="..\Classes\GMJson.h" />
+    <ClInclude Include="..\Classes\GoldenMinerScene.h" />
+    <ClInclude Include="..\Classes\GuideLayerLoader.h" />
+    <ClInclude Include="..\Classes\HalpLayer.h" />
+    <ClInclude Include="..\Classes\HalpLayerLoader.h" />
+    <ClInclude Include="..\Classes\Hanger.h" />
+    <ClInclude Include="..\Classes\IngotDrop.h" />
+    <ClInclude Include="..\Classes\JewelAppendEffect.h" />
+    <ClInclude Include="..\Classes\JewelSkillSprite.h" />
+    <ClInclude Include="..\Classes\LastTimeCountEffect.h" />
+    <ClInclude Include="..\Classes\LoadingLayer.h" />
+    <ClInclude Include="..\Classes\LoadingLayerLoader.h" />
+    <ClInclude Include="..\Classes\MainAppendLayer.h" />
+    <ClInclude Include="..\Classes\MainAppendLayerLoader.h" />
+    <ClInclude Include="..\Classes\MainLayer.h" />
+    <ClInclude Include="..\Classes\MainLayerLoader.h" />
+    <ClInclude Include="..\Classes\MusicControl.h" />
+    <ClInclude Include="..\Classes\MyAboutLayer.h" />
+    <ClInclude Include="..\Classes\MyScrollView.h" />
+    <ClInclude Include="..\Classes\NetWork.h" />
+    <ClInclude Include="..\Classes\PauseMenu.h" />
+    <ClInclude Include="..\Classes\PauseMenuLoader.h" />
+    <ClInclude Include="..\Classes\PayService.h" />
+    <ClInclude Include="..\Classes\Pet.h" />
+    <ClInclude Include="..\Classes\PetParkLayer.h" />
+    <ClInclude Include="..\Classes\PetParkLayerLoader.h" />
+    <ClInclude Include="..\Classes\Player.h" />
+    <ClInclude Include="..\Classes\PowerBuff.h" />
+    <ClInclude Include="..\Classes\PromptLayer.h" />
+    <ClInclude Include="..\Classes\PromptLayerLoader.h" />
+    <ClInclude Include="..\Classes\Prop.h" />
+    <ClInclude Include="..\Classes\RegisterLayer.h" />
+    <ClInclude Include="..\Classes\RegisterLayerLoader.h" />
+    <ClInclude Include="..\Classes\resource.h" />
+    <ClInclude Include="..\Classes\Role.h" />
+    <ClInclude Include="..\Classes\RoleInformation.h" />
+    <ClInclude Include="..\Classes\RoleInformationLoader.h" />
+    <ClInclude Include="..\Classes\RoleSkillEffect.h" />
+    <ClInclude Include="..\Classes\RoleSkillEffectLoader.h" />
+    <ClInclude Include="..\Classes\Rope.h" />
+    <ClInclude Include="..\Classes\ScoreAppendEffect.h" />
+    <ClInclude Include="..\Classes\SelectChallenge.h" />
+    <ClInclude Include="..\Classes\SelectChallengeLoader.h" />
+    <ClInclude Include="..\Classes\SelectPet.h" />
+    <ClInclude Include="..\Classes\SelectPetLoader.h" />
+    <ClInclude Include="..\Classes\SelectRoleAndPet.h" />
+    <ClInclude Include="..\Classes\SelectRoleAndPetLoader.h" />
+    <ClInclude Include="..\Classes\SelectRoleAndPropMenu.h" />
+    <ClInclude Include="..\Classes\SelectRoleAndPropMenuLoader.h" />
+    <ClInclude Include="..\Classes\Sensitization.h" />
+    <ClInclude Include="..\Classes\SetMenu.h" />
+    <ClInclude Include="..\Classes\SetMenuLoader.h" />
+    <ClInclude Include="..\Classes\SettingMenu.h" />
+    <ClInclude Include="..\Classes\SettingMenuLoader.h" />
+    <ClInclude Include="..\Classes\Shop.h" />
+    <ClInclude Include="..\Classes\ShopLoader.h" />
+    <ClInclude Include="..\Classes\SimleGateMenu.h" />
+    <ClInclude Include="..\Classes\SimleGateMenuLoader.h" />
+    <ClInclude Include="..\Classes\Skill.h" />
+    <ClInclude Include="..\Classes\SlipGuide.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\animation\SPAnimation.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\animation\SPProcessBase.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\animation\SPTween.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPArmatureDisplayData.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPDisplayData.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPParticleDisplayData.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPShaderDisplayData.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\display_data\SPSpriteDisplayData.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPAnimationData.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPArmatureData.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPBoneData.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPContourData.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPFrameData.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPJsonData.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPMovementBoneData.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPMovementData.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPMovementFrameData.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPNode.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\datas\SPTextureData.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\CCTexture2DMutable.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPArmatureDisplayFactory.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPDisplayFactory.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPDisplayFactoryManager.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPParticleDisplayFactory.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPShaderDisplayFactory.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\display_factory\SPSpriteDisplayFactory.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\SPContourPoints.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\SPContourSprite.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\SPDecorativeDisplay.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\SPDisplayManager.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\display\SPShaderNode.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\json\autolink.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\json\config.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\json\features.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\json\forwards.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\json\json_lib.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\json\reader.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\json\value.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\json\writer.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_batchallocator.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_tool.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\Json\SPContentJsonDictionary.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\external_tool\sigslot.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\SPArmature.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\SPBone.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\utils\SPArmatureDataManager.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\utils\SPArmatureDefine.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\utils\SPBatchNode.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\utils\SPBatchNodeManager.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\utils\SPConstValue.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\utils\SPDataReaderHelper.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\utils\SPTransformHelp.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\utils\SPTweenFunction.h" />
+    <ClInclude Include="..\Classes\SPArmature\SPArmature\utils\SPUtilMath.h" />
+    <ClInclude Include="..\Classes\SPArmature\tinyxml\tinystr.h" />
+    <ClInclude Include="..\Classes\SPArmature\tinyxml\tinyxml.h" />
+    <ClInclude Include="..\Classes\SpotLightLayer.h" />
+    <ClInclude Include="..\Classes\Target.h" />
+    <ClInclude Include="..\Classes\TemporaryPromptLayer.h" />
+    <ClInclude Include="..\Classes\TemporaryPromptLayerLoader.h" />
+    <ClInclude Include="..\Classes\TimeAppendEffect.h" />
+    <ClInclude Include="main.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\cocos2dx\proj.win32\cocos2d.vcxproj">
+      <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\CocosDenshion\proj.win32\CocosDenshion.vcxproj">
+      <Project>{f8edd7fa-9a51-4e80-baeb-860825d2eac6}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\extensions\proj.win32\libExtensions.vcxproj">
+      <Project>{21b2c324-891f-48ea-ad1a-5ae13de12e28}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\external\Box2D\proj.win32\Box2D.vcxproj">
+      <Project>{929480e7-23c0-4df6-8456-096d71547116}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\external\chipmunk\proj.win32\chipmunk.vcxproj">
+      <Project>{207bc7a9-ccf1-4f2f-a04d-45f72242ae25}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Classes\CSArmature\external_tool\Json\lib_json\json_internalarray.inl" />
+    <None Include="..\Classes\CSArmature\external_tool\Json\lib_json\json_internalmap.inl" />
+    <None Include="..\Classes\CSArmature\external_tool\Json\lib_json\json_valueiterator.inl" />
+    <None Include="..\Classes\CSArmature\external_tool\Json\lib_json\sconscript" />
+    <None Include="..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_internalarray.inl" />
+    <None Include="..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_internalmap.inl" />
+    <None Include="..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\json_valueiterator.inl" />
+    <None Include="..\Classes\SPArmature\SPArmature\external_tool\Json\lib_json\sconscript" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

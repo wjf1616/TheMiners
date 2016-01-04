@@ -1,0 +1,100 @@
+<skeleton name="haiguinew" frameRate="8" version="2.0">
+ <armatures>
+  <armature name="haigui">
+   <b name="hglang22" x="174.85" y="-13.5" kX="0" kY="0" cX="0.91" cY="0.91" pX="51" pY="33" z="0">
+    <d name="hglang22"/>
+   </b>
+   <b name="hglang21" x="-64.5" y="-5.5" kX="0" kY="0" cX="1" cY="1" pX="44" pY="25" z="1">
+    <d name="hglang21"/>
+   </b>
+   <b name="hglang14" x="166.35" y="-15" kX="0" kY="0" cX="0.89" cY="0.89" pX="39" pY="33" z="0">
+    <d name="hglang14"/>
+   </b>
+   <b name="hglang13" x="-58.65" y="-7.65" kX="0" kY="0" cX="1" cY="1" pX="43" pY="33" z="1">
+    <d name="hglang13"/>
+   </b>
+   <b name="hgdongzuo" x="62" y="-9.5" kX="0" kY="0" cX="1" cY="1" pX="129" pY="77" z="0">
+    <d name="hg01"/>
+    <d name="hg02"/>
+    <d name="hg03"/>
+    <d name="hg04"/>
+    <d name="hg05"/>
+    <d name="hg06"/>
+   </b>
+   <b name="hglang12" x="172" y="-9.65" kX="0" kY="0" cX="0.84" cY="0.84" pX="33" pY="21" z="3">
+    <d name="hglang12"/>
+   </b>
+   <b name="hglang11" x="-49.95" y="-1" kX="0" kY="0" cX="1" cY="1" pX="54" pY="34" z="4">
+    <d name="hglang11"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="haigui">
+   <mov name="haiguiyidong" dr="11" to="0" drTW="12" lp="1" twE="NaN">
+    <b name="hglang22" sc="1" dl="0">
+     <f dr="8" dI="-1"/>
+     <f x="174.85" y="-13.5" cocos2d_x="128.05" cocos2d_y="-43.25" kX="0" kY="0" cX="0.91" cY="0.91" pX="51" pY="33" z="0" dI="0" dr="1"/>
+     <f x="182.8" y="-11" cocos2d_x="139.1" cocos2d_y="-38.8" kX="0" kY="0" cX="0.85" cY="0.85" pX="51" pY="33" z="0" dI="0" dr="1"/>
+     <f x="198.8" y="-11" cocos2d_x="159.8" cocos2d_y="-35.8" kX="0" kY="0" cX="0.76" cY="0.76" pX="51" pY="33" z="0" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="65" rM="100" gM="100" bM="100"/>
+     </f>
+    </b>
+    <b name="hglang21" sc="1" dl="0">
+     <f dr="8" dI="-1"/>
+     <f x="-64.5" y="-5.5" cocos2d_x="-108.6" cocos2d_y="-30.2" kX="0" kY="0" cX="1" cY="1" pX="44" pY="25" z="1" dI="0" dr="1"/>
+     <f x="-81.5" y="-4" cocos2d_x="-120.6" cocos2d_y="-25.9" kX="0" kY="0" cX="0.89" cY="0.89" pX="44" pY="25" z="1" dI="0" dr="1"/>
+     <f x="-96.5" y="-3.95" cocos2d_x="-132.65" cocos2d_y="-24.2" kX="0" kY="0" cX="0.82" cY="0.82" pX="44" pY="25" z="1" dI="0" dr="1">
+      <colorTransform a="0" r="0" g="0" b="0" aM="65" rM="100" gM="100" bM="100"/>
+     </f>
+    </b>
+    <b name="hglang14" sc="1" dl="0">
+     <f dr="5" dI="-1"/>
+     <f x="166.35" y="-15" cocos2d_x="131.75" cocos2d_y="-44.6" kX="0" kY="0" cX="0.89" cY="0.89" pX="39" pY="33" z="0" dI="0" twE="0" dr="2"/>
+     <f x="180.85" y="-12.45" cocos2d_x="152.3" cocos2d_y="-36.9" kX="0" kY="0" cX="0.74" cY="0.74" pX="39" pY="33" z="0" dI="0" twE="0" dr="1"/>
+     <f dr="3" dI="-1"/>
+    </b>
+    <b name="hglang13" sc="1" dl="0">
+     <f dr="5" dI="-1"/>
+     <f x="-58.65" y="-7.65" cocos2d_x="-101.65" cocos2d_y="-40.85" kX="0" kY="0" cX="1" cY="1" pX="43" pY="33" z="1" dI="0" twE="0" dr="2"/>
+     <f x="-69.65" y="-6.25" cocos2d_x="-108.65" cocos2d_y="-36.25" kX="0" kY="0" cX="0.91" cY="0.91" pX="43" pY="33" z="1" dI="0" twE="0" dr="1"/>
+     <f dr="3" dI="-1"/>
+    </b>
+    <b name="hgdongzuo" sc="1" dl="0">
+     <f x="62" y="-9.5" cocos2d_x="-67" cocos2d_y="-86" kX="0" kY="0" cX="1" cY="1" pX="129" pY="77" z="0" dI="0" dr="2"/>
+     <f x="62" y="-9.5" cocos2d_x="-67" cocos2d_y="-86" kX="0" kY="0" cX="1" cY="1" pX="129" pY="77" z="0" dI="1" dr="2"/>
+     <f x="62" y="-9.5" cocos2d_x="-67" cocos2d_y="-86" kX="0" kY="0" cX="1" cY="1" pX="129" pY="77" z="0" dI="2" dr="1"/>
+     <f x="62" y="-9.5" cocos2d_x="-67" cocos2d_y="-86" kX="0" kY="0" cX="1" cY="1" pX="129" pY="77" z="2" dI="3" dr="2"/>
+     <f x="62" y="-9.5" cocos2d_x="-67" cocos2d_y="-86" kX="0" kY="0" cX="1" cY="1" pX="129" pY="77" z="2" dI="4" dr="1"/>
+     <f x="62" y="-9.5" cocos2d_x="-67" cocos2d_y="-86" kX="0" kY="0" cX="1" cY="1" pX="129" pY="77" z="2" dI="5" dr="3"/>
+    </b>
+    <b name="hglang12" sc="1" dl="0">
+     <f dr="5" dI="-1"/>
+     <f x="172" y="-9.65" cocos2d_x="144.4" cocos2d_y="-27.45" kX="0" kY="0" cX="0.84" cY="0.84" pX="33" pY="21" z="3" dI="0" twE="0" dr="2"/>
+     <f x="184" y="-5.65" cocos2d_x="159.5" cocos2d_y="-21.45" kX="0" kY="0" cX="0.74" cY="0.74" pX="33" pY="21" z="3" dI="0" twE="0" dr="1"/>
+     <f dr="3" dI="-1"/>
+    </b>
+    <b name="hglang11" sc="1" dl="0">
+     <f dr="5" dI="-1"/>
+     <f x="-49.95" y="-1" cocos2d_x="-104" cocos2d_y="-35.45" kX="0" kY="0" cX="1" cY="1" pX="54" pY="34" z="4" dI="0" twE="0" dr="2"/>
+     <f x="-59.95" y="1" cocos2d_x="-109.5" cocos2d_y="-30.6" kX="0" kY="0" cX="0.92" cY="0.92" pX="54" pY="35" z="4" dI="0" twE="0" dr="1"/>
+     <f dr="3" dI="-1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="haiguinew" width="1024" height="512">
+  <SubTexture name="hglang11" width="109" height="69" cocos2d_pX="0" cocos2d_pY="0" x="780" y="0"/>
+  <SubTexture name="hglang12" width="67" height="43" cocos2d_pX="0" cocos2d_pY="0" x="951" y="137"/>
+  <SubTexture name="hg06" width="258" height="153" cocos2d_pX="0" cocos2d_pY="0" x="260" y="155"/>
+  <SubTexture name="hg05" width="258" height="153" cocos2d_pX="0" cocos2d_pY="0" x="260" y="0"/>
+  <SubTexture name="hg04" width="258" height="153" cocos2d_pX="0" cocos2d_pY="0" x="520" y="0"/>
+  <SubTexture name="hg03" width="258" height="153" cocos2d_pX="0" cocos2d_pY="0" x="0" y="155"/>
+  <SubTexture name="hg02" width="258" height="153" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+  <SubTexture name="hg01" width="258" height="153" cocos2d_pX="0" cocos2d_pY="0" x="520" y="155"/>
+  <SubTexture name="hglang13" width="86" height="67" cocos2d_pX="0" cocos2d_pY="0" x="891" y="68"/>
+  <SubTexture name="hglang14" width="78" height="67" cocos2d_pX="0" cocos2d_pY="0" x="780" y="71"/>
+  <SubTexture name="hglang21" width="89" height="50" cocos2d_pX="0" cocos2d_pY="0" x="860" y="137"/>
+  <SubTexture name="hglang22" width="103" height="66" cocos2d_pX="0" cocos2d_pY="0" x="891" y="0"/>
+ </TextureAtlas>
+</skeleton>

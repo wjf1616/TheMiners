@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="bg05" tilewidth="32" tileheight="32">
+  <image source="bg05.png" width="800" height="480"/>
+ </tileset>
+ <layer name="bg" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJwNwwl0CAQAANBhzH3NbdjYGGaY+2bmnDk2xzbXhrnnNkKhO8rZQVGUWwflvo8OR3eUW9FBuSu38t/7P1tAQEB2cxhoTnMZZG7zmNd85reABS1kYYtY1GCLWdwSlrSUpS1jWUMsZ3krGGqYFa1kuBFWtoqRVrWa1Y2yhtHWtJa1jbGOda1nfRvY0EY2tolNbWZzW9jSVsba2jjb2NZ2treDHY23kwl2totd7WaiSXa3hz3tZbIpptrbPva1n/1NM90BDnSQGQ52iEMd5nBHONJMRznaMY51nOOd4ESznORkn3CKU53mkz7ldGc406d9xmd9zud9wRd9yVnO9mVfcY5zned8F7jQV33N133DRS72Td9yiUt923dc5nLf9T1XuNJVrnaNa13net/3Az/0Ize40Y/9xE1udotb3eZ2d7jTXe52j3vd534PeNBP/czP/cJDHvaIR/3Sr/zab/zW7/zeHzzmcX/0J0940lOe9oxnPed5f/YXL3jRX/3N3/3DS172T//yile95nVveNNb/u0//utt73jXe973gQ995H/+b0A2zG4OA81pLoPMbR7zms/8FrCghSxsEYsabDGLW8KSlrK0ZSxriOUsbwVDDbOilQw3wspWMdKqVrO6UdYw2prWsrYx1rGu9axvAxvayMY2sanNbG4LW9rKWFsbZxvb2s72drCj8XYywc52savdTDTJ7vawp71MNsVUe9vHvvazv2mmO8CBDjLDwQ5xqMMc7ghHmukoRzvGsY5zvBOcaJaTfAzdiZvd
+  </data>
+ </layer>
+ <objectgroup name="logic" width="25" height="15" opacity="0.9">
+  <object x="0" y="0" width="32" height="32">
+   <properties>
+    <property name="coins" value="2000"/>
+    <property name="map" value="05"/>
+    <property name="nextscene" value="-1"/>
+    <property name="nextscene2" value="84"/>
+    <property name="scene" value="83"/>
+    <property name="time" value="60"/>
+    <property name="typeid" value="999"/>
+   </properties>
+  </object>
+  <object x="280" y="155" width="48" height="64">
+   <properties>
+    <property name="direction" value="2"/>
+    <property name="pointcount" value="2"/>
+    <property name="pointx1" value="0"/>
+    <property name="pointx2" value="0"/>
+    <property name="pointx3" value="0"/>
+    <property name="pointy1" value="0"/>
+    <property name="pointy2" value="0"/>
+    <property name="pointy3" value="0"/>
+    <property name="speed" value="6"/>
+    <property name="starttype" value="3"/>
+    <property name="typeid" value="05002"/>
+   </properties>
+  </object>
+  <object x="508" y="285" width="40" height="40">
+   <properties>
+    <property name="typeid" value="05017"/>
+   </properties>
+  </object>
+  <object x="615" y="262" width="48" height="64">
+   <properties>
+    <property name="direction" value="2"/>
+    <property name="pointcount" value="2"/>
+    <property name="pointx1" value="0"/>
+    <property name="pointx2" value="0"/>
+    <property name="pointx3" value="0"/>
+    <property name="pointy1" value="0"/>
+    <property name="pointy2" value="0"/>
+    <property name="pointy3" value="0"/>
+    <property name="speed" value="9"/>
+    <property name="starttype" value="2"/>
+    <property name="typeid" value="05002"/>
+   </properties>
+  </object>
+  <object x="382" y="194" width="40" height="40">
+   <properties>
+    <property name="typeid" value="05017"/>
+   </properties>
+  </object>
+  <object x="390" y="408" width="40" height="40">
+   <properties>
+    <property name="typeid" value="05017"/>
+   </properties>
+  </object>
+  <object x="195" y="419" width="40" height="40">
+   <properties>
+    <property name="typeid" value="05017"/>
+   </properties>
+  </object>
+  <object x="268" y="284" width="40" height="40">
+   <properties>
+    <property name="typeid" value="05017"/>
+   </properties>
+  </object>
+  <object x="185" y="192" width="40" height="40">
+   <properties>
+    <property name="typeid" value="05017"/>
+   </properties>
+  </object>
+  <object x="76" y="287" width="40" height="40">
+   <properties>
+    <property name="typeid" value="05017"/>
+   </properties>
+  </object>
+  <object x="595" y="193" width="40" height="40">
+   <properties>
+    <property name="typeid" value="05017"/>
+   </properties>
+  </object>
+  <object x="628" y="414" width="40" height="40">
+   <properties>
+    <property name="typeid" value="05017"/>
+   </properties>
+  </object>
+  <object x="694" y="251" width="40" height="40">
+   <properties>
+    <property name="typeid" value="05017"/>
+   </properties>
+  </object>
+  <object x="724" y="374" width="48" height="64">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="pointcount" value="2"/>
+    <property name="pointx1" value="0"/>
+    <property name="pointx2" value="0"/>
+    <property name="pointx3" value="0"/>
+    <property name="pointy1" value="0"/>
+    <property name="pointy2" value="0"/>
+    <property name="pointy3" value="0"/>
+    <property name="speed" value="3"/>
+    <property name="starttype" value="0"/>
+    <property name="typeid" value="05006"/>
+   </properties>
+  </object>
+  <object x="472" y="159" width="48" height="64">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="pointcount" value="2"/>
+    <property name="pointx1" value="0"/>
+    <property name="pointx2" value="0"/>
+    <property name="pointx3" value="0"/>
+    <property name="pointy1" value="0"/>
+    <property name="pointy2" value="0"/>
+    <property name="pointy3" value="0"/>
+    <property name="speed" value="3"/>
+    <property name="starttype" value="0"/>
+    <property name="typeid" value="05005"/>
+   </properties>
+  </object>
+  <object x="157" y="272" width="48" height="64">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="pointcount" value="2"/>
+    <property name="pointx1" value="0"/>
+    <property name="pointx2" value="0"/>
+    <property name="pointx3" value="0"/>
+    <property name="pointy1" value="0"/>
+    <property name="pointy2" value="0"/>
+    <property name="pointy3" value="0"/>
+    <property name="speed" value="6"/>
+    <property name="starttype" value="2"/>
+    <property name="typeid" value="05005"/>
+   </properties>
+  </object>
+  <object x="52" y="383" width="48" height="64">
+   <properties>
+    <property name="direction" value="2"/>
+    <property name="pointcount" value="2"/>
+    <property name="pointx1" value="0"/>
+    <property name="pointx2" value="0"/>
+    <property name="pointx3" value="0"/>
+    <property name="pointy1" value="0"/>
+    <property name="pointy2" value="0"/>
+    <property name="pointy3" value="0"/>
+    <property name="speed" value="3"/>
+    <property name="starttype" value="0"/>
+    <property name="typeid" value="05006"/>
+   </properties>
+  </object>
+  <object x="265" y="390" width="48" height="64">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="pointcount" value="2"/>
+    <property name="pointx1" value="0"/>
+    <property name="pointx2" value="0"/>
+    <property name="pointx3" value="0"/>
+    <property name="pointy1" value="0"/>
+    <property name="pointy2" value="0"/>
+    <property name="pointy3" value="0"/>
+    <property name="speed" value="9"/>
+    <property name="starttype" value="2"/>
+    <property name="typeid" value="05002"/>
+   </properties>
+  </object>
+  <object x="376" y="281" width="48" height="64">
+   <properties>
+    <property name="direction" value="1"/>
+    <property name="pointcount" value="2"/>
+    <property name="pointx1" value="0"/>
+    <property name="pointx2" value="0"/>
+    <property name="pointx3" value="0"/>
+    <property name="pointy1" value="0"/>
+    <property name="pointy2" value="0"/>
+    <property name="pointy3" value="0"/>
+    <property name="speed" value="3"/>
+    <property name="starttype" value="1"/>
+    <property name="typeid" value="05002"/>
+   </properties>
+  </object>
+  <object x="499" y="386" width="48" height="64">
+   <properties>
+    <property name="direction" value="2"/>
+    <property name="pointcount" value="2"/>
+    <property name="pointx1" value="0"/>
+    <property name="pointx2" value="0"/>
+    <property name="pointx3" value="0"/>
+    <property name="pointy1" value="0"/>
+    <property name="pointy2" value="0"/>
+    <property name="pointy3" value="0"/>
+    <property name="speed" value="6"/>
+    <property name="starttype" value="2"/>
+    <property name="typeid" value="05005"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

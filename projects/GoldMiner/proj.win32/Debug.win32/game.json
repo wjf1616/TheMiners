@@ -1,0 +1,438 @@
+{
+	"big_level" : [
+		{
+			"little_level" : [
+				{
+					"lock" : false
+				},
+				{
+					"lock" : false
+				},
+				{
+					"lock" : false
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : false
+				},
+				{
+					"lock" : false
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : false
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				}
+			],
+			"lock" : false,
+			"total_level" : 92,
+			"unlock_level" : 1
+		},
+		{
+			"little_level" : [
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				},
+				{
+					"lock" : null
+				}
+			],
+			"lock" : true,
+			"total_level" : 78,
+			"unlock_level" : 1
+		},
+		{
+			"little_level" : [
+				{
+					"lock" : false
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				}
+			],
+			"lock" : true,
+			"total_level" : 15,
+			"unlock_level" : 1
+		},
+		{
+			"little_level" : [
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				},
+				{
+					"lock" : true
+				}
+			],
+			"lock" : true,
+			"total_level" : 15,
+			"unlock_level" : 1
+		}
+	],
+	"diamond" : 1
+}

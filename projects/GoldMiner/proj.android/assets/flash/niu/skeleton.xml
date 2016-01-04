@@ -1,0 +1,108 @@
+<skeleton name="naizui" frameRate="24" version="2.0">
+ <armatures>
+  <armature name="maimengnaizui">
+   <b name="niu" x="35.35" y="-4.15" kX="0" kY="0" cX="1" cY="1" pX="75" pY="69" z="0">
+    <d name="nmw01"/>
+   </b>
+   <b name="02" x="34.85" y="-4.65" kX="0" kY="0" cX="1" cY="1" pX="73" pY="69" z="0">
+    <d name="nmw02"/>
+   </b>
+   <b name="03" x="36" y="-4.65" kX="0" kY="0" cX="1" cY="1" pX="72" pY="68" z="0">
+    <d name="nmw03"/>
+   </b>
+   <b name="04" x="35.85" y="-7.15" kX="0" kY="0" cX="1" cY="1" pX="72" pY="69" z="0">
+    <d name="nmw04"/>
+   </b>
+   <b name="05" x="35.85" y="-5" kX="0" kY="0" cX="1" cY="1" pX="72" pY="70" z="0">
+    <d name="nmw05"/>
+   </b>
+   <b name="06" x="37" y="-6.65" kX="0" kY="0" cX="1" cY="1" pX="73" pY="69" z="0">
+    <d name="nmw06"/>
+   </b>
+   <b name="07" x="35" y="-5.65" kX="0" kY="0" cX="1" cY="1" pX="73" pY="70" z="0">
+    <d name="nmw07"/>
+   </b>
+   <b name="08" x="35.85" y="-3.15" kX="0" kY="0" cX="1" cY="1" pX="73" pY="70" z="0">
+    <d name="nmw08"/>
+   </b>
+   <b name="09" x="34.85" y="-5" kX="0" kY="0" cX="1" cY="1" pX="73" pY="70" z="0">
+    <d name="nmw09"/>
+   </b>
+   <b name="naizui" x="6.35" y="2.5" kX="0" kY="0" cX="1" cY="1" pX="19" pY="15" z="1">
+    <d name="nmwnaizui"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="maimengnaizui">
+   <mov name="naizui" dr="10" to="0" drTW="24" lp="1" twE="NaN">
+    <b name="niu" sc="1" dl="0">
+     <f x="35.35" y="-4.15" cocos2d_x="-39.15" cocos2d_y="-73.45" kX="0" kY="0" cX="1" cY="1" pX="75" pY="69" z="0" dI="0" dr="2"/>
+     <f dr="8" dI="-1"/>
+    </b>
+    <b name="02" sc="1" dl="0">
+     <f dr="2" dI="-1"/>
+     <f x="34.85" y="-4.65" cocos2d_x="-38.15" cocos2d_y="-73.3" kX="0" kY="0" cX="1" cY="1" pX="73" pY="69" z="0" dI="0" dr="1"/>
+     <f dr="7" dI="-1"/>
+    </b>
+    <b name="03" sc="1" dl="0">
+     <f dr="3" dI="-1"/>
+     <f x="36" y="-4.65" cocos2d_x="-36.05" cocos2d_y="-72.65" kX="0" kY="0" cX="1" cY="1" pX="72" pY="68" z="0" dI="0" dr="1"/>
+     <f dr="6" dI="-1"/>
+    </b>
+    <b name="04" sc="1" dl="0">
+     <f dr="4" dI="-1"/>
+     <f x="35.85" y="-7.15" cocos2d_x="-36.45" cocos2d_y="-76.4" kX="0" kY="0" cX="1" cY="1" pX="72" pY="69" z="0" dI="0" dr="1"/>
+     <f dr="5" dI="-1"/>
+    </b>
+    <b name="05" sc="1" dl="0">
+     <f dr="5" dI="-1"/>
+     <f x="35.85" y="-5" cocos2d_x="-36.35" cocos2d_y="-75.3" kX="0" kY="0" cX="1" cY="1" pX="72" pY="70" z="0" dI="0" dr="1"/>
+     <f dr="4" dI="-1"/>
+    </b>
+    <b name="06" sc="1" dl="0">
+     <f dr="6" dI="-1"/>
+     <f x="37" y="-6.65" cocos2d_x="-35.7" cocos2d_y="-76.05" kX="0" kY="0" cX="1" cY="1" pX="73" pY="69" z="0" dI="0" dr="1"/>
+     <f dr="3" dI="-1"/>
+    </b>
+    <b name="07" sc="1" dl="0">
+     <f dr="7" dI="-1"/>
+     <f x="35" y="-5.65" cocos2d_x="-37.8" cocos2d_y="-75.65" kX="0" kY="0" cX="1" cY="1" pX="73" pY="70" z="0" dI="0" dr="1"/>
+     <f dr="2" dI="-1"/>
+    </b>
+    <b name="08" sc="1" dl="0">
+     <f dr="8" dI="-1"/>
+     <f x="35.85" y="-3.15" cocos2d_x="-36.65" cocos2d_y="-73.2" kX="0" kY="0" cX="1" cY="1" pX="73" pY="70" z="0" dI="0" dr="1"/>
+     <f dr="1" dI="-1"/>
+    </b>
+    <b name="09" sc="1" dl="0">
+     <f dr="9" dI="-1"/>
+     <f x="34.85" y="-5" cocos2d_x="-37.65" cocos2d_y="-75.35" kX="0" kY="0" cX="1" cY="1" pX="73" pY="70" z="0" dI="0" dr="1"/>
+    </b>
+    <b name="naizui" sc="1" dl="0">
+     <f x="6.35" y="2.5" cocos2d_x="-12.65" cocos2d_y="-12.5" kX="0" kY="0" cX="1" cY="1" pX="19" pY="15" z="1" dI="0" dr="2"/>
+     <f x="6.35" y="0.5" cocos2d_x="-12.65" cocos2d_y="-14.5" kX="0" kY="0" cX="1" cY="1" pX="19" pY="15" z="1" dI="0" dr="1"/>
+     <f x="6.35" y="0.5" cocos2d_x="-12.65" cocos2d_y="-14.5" kX="0" kY="0" cX="1" cY="1" pX="19" pY="15" z="1" dI="0" dr="1"/>
+     <f x="6.35" y="0.5" cocos2d_x="-12.65" cocos2d_y="-14.5" kX="0" kY="0" cX="1" cY="1" pX="19" pY="15" z="1" dI="0" dr="1"/>
+     <f x="6.35" y="0.5" cocos2d_x="-12.65" cocos2d_y="-14.5" kX="0" kY="0" cX="1" cY="1" pX="19" pY="15" z="1" dI="0" dr="1"/>
+     <f x="6.35" y="0.5" cocos2d_x="-12.65" cocos2d_y="-14.5" kX="0" kY="0" cX="1" cY="1" pX="19" pY="15" z="1" dI="0" dr="1"/>
+     <f x="6.35" y="0.5" cocos2d_x="-12.65" cocos2d_y="-14.5" kX="0" kY="0" cX="1" cY="1" pX="19" pY="15" z="1" dI="0" dr="1"/>
+     <f x="6.35" y="0.5" cocos2d_x="-12.65" cocos2d_y="-14.5" kX="0" kY="0" cX="1" cY="1" pX="19" pY="15" z="1" dI="0" dr="1"/>
+     <f x="6.35" y="0.5" cocos2d_x="-12.65" cocos2d_y="-14.5" kX="0" kY="0" cX="1" cY="1" pX="19" pY="15" z="1" dI="0" dr="1"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="naizui" width="512" height="512">
+  <SubTexture name="nmwnaizui" width="38" height="30" cocos2d_pX="0" cocos2d_pY="0" x="447" y="0"/>
+  <SubTexture name="nmw09" width="145" height="141" cocos2d_pX="0" cocos2d_pY="0" x="299" y="142"/>
+  <SubTexture name="nmw08" width="146" height="141" cocos2d_pX="0" cocos2d_pY="0" x="151" y="0"/>
+  <SubTexture name="nmw07" width="146" height="140" cocos2d_pX="0" cocos2d_pY="0" x="299" y="0"/>
+  <SubTexture name="nmw06" width="146" height="139" cocos2d_pX="0" cocos2d_pY="0" x="147" y="143"/>
+  <SubTexture name="nmw05" width="145" height="141" cocos2d_pX="0" cocos2d_pY="0" x="0" y="141"/>
+  <SubTexture name="nmw04" width="145" height="139" cocos2d_pX="0" cocos2d_pY="0" x="0" y="284"/>
+  <SubTexture name="nmw03" width="145" height="136" cocos2d_pX="0" cocos2d_pY="0" x="295" y="285"/>
+  <SubTexture name="nmw02" width="146" height="138" cocos2d_pX="0" cocos2d_pY="0" x="147" y="284"/>
+  <SubTexture name="nmw01" width="149" height="139" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+ </TextureAtlas>
+</skeleton>

@@ -1,0 +1,83 @@
+<skeleton name="shasengnew" frameRate="24" version="2.0">
+ <armatures>
+  <armature name="shaseng">
+   <b name="ssdongzuo" x="15" y="-11" kX="0" kY="0" cX="1" cY="1" pX="45" pY="69" z="0">
+    <d name="ssshou01"/>
+    <d name="ssshou02"/>
+    <d name="ssshou03"/>
+    <d name="ssshou04"/>
+    <d name="ssshou05"/>
+    <d name="ssshou06"/>
+    <d name="ssshou07"/>
+    <d name="sskaixin01"/>
+    <d name="sskaixin02"/>
+    <d name="sskaixin03"/>
+    <d name="sskaixin04"/>
+    <d name="sskaixin05"/>
+    <d name="sskaixin06"/>
+   </b>
+   <b name="sshan" x="-35" y="-41.65" kX="0" kY="0" cX="1" cY="1" pX="12" pY="19" z="1">
+    <d name="sshan"/>
+   </b>
+   <b name="ssxin" x="-47.95" y="-29.65" kX="0" kY="0" cX="1" cY="1" pX="23" pY="14" z="1">
+    <d name="ssxin"/>
+   </b>
+  </armature>
+ </armatures>
+ <animations>
+  <animation name="shaseng">
+   <mov name="shasengdaiji" dr="2" to="0" drTW="10" lp="1" twE="NaN">
+    <b name="ssdongzuo" sc="1" dl="0">
+     <f x="15" y="-11" cocos2d_x="-30" cocos2d_y="-80" kX="0" kY="0" cX="1" cY="1" pX="45" pY="69" z="0" dI="0" dr="2"/>
+    </b>
+   </mov>
+   <mov name="shasengshou" dr="8" to="0" drTW="22" lp="1" twE="NaN">
+    <b name="ssdongzuo" sc="1" dl="0">
+     <f x="15" y="-11" cocos2d_x="-30" cocos2d_y="-80" kX="0" kY="0" cX="1" cY="1" pX="45" pY="69" z="0" dI="0" dr="1"/>
+     <f x="15" y="-11" cocos2d_x="-30" cocos2d_y="-80" kX="0" kY="0" cX="1" cY="1" pX="45" pY="69" z="0" dI="1" dr="1"/>
+     <f x="15" y="-11" cocos2d_x="-30" cocos2d_y="-80" kX="0" kY="0" cX="1" cY="1" pX="45" pY="69" z="0" dI="2" dr="1"/>
+     <f x="15" y="-11" cocos2d_x="-30" cocos2d_y="-80" kX="0" kY="0" cX="1" cY="1" pX="45" pY="69" z="0" dI="3" dr="2"/>
+     <f x="15" y="-11" cocos2d_x="-30" cocos2d_y="-80" kX="0" kY="0" cX="1" cY="1" pX="45" pY="69" z="0" dI="4" dr="1"/>
+     <f x="15" y="-11" cocos2d_x="-30" cocos2d_y="-80" kX="0" kY="0" cX="1" cY="1" pX="45" pY="69" z="0" dI="5" dr="1"/>
+     <f x="15" y="-11" cocos2d_x="-30" cocos2d_y="-80" kX="0" kY="0" cX="1" cY="1" pX="45" pY="69" z="0" dI="6" dr="1"/>
+    </b>
+    <b name="sshan" sc="1" dl="0">
+     <f dr="3" dI="-1"/>
+     <f x="-35" y="-41.65" cocos2d_x="-47" cocos2d_y="-60.15" kX="0" kY="0" cX="1" cY="1" pX="12" pY="19" z="1" dI="0" dr="4"/>
+     <f dr="1" dI="-1"/>
+    </b>
+   </mov>
+   <mov name="shasengkaixin" dr="7" to="0" drTW="22" lp="1" twE="NaN">
+    <b name="ssdongzuo" sc="1" dl="0">
+     <f x="15" y="-11" cocos2d_x="-30" cocos2d_y="-80" kX="0" kY="0" cX="1" cY="1" pX="45" pY="69" z="0" dI="7" dr="2"/>
+     <f x="15" y="-11" cocos2d_x="-30" cocos2d_y="-80" kX="0" kY="0" cX="1" cY="1" pX="45" pY="69" z="0" dI="8" dr="1"/>
+     <f x="15" y="-11" cocos2d_x="-30" cocos2d_y="-80" kX="0" kY="0" cX="1" cY="1" pX="45" pY="69" z="0" dI="9" dr="1"/>
+     <f x="15" y="-11" cocos2d_x="-30" cocos2d_y="-80" kX="0" kY="0" cX="1" cY="1" pX="45" pY="69" z="0" dI="10" dr="1"/>
+     <f x="15" y="-11" cocos2d_x="-30" cocos2d_y="-80" kX="0" kY="0" cX="1" cY="1" pX="45" pY="69" z="0" dI="11" dr="1"/>
+     <f x="15" y="-11" cocos2d_x="-30" cocos2d_y="-80" kX="0" kY="0" cX="1" cY="1" pX="45" pY="69" z="0" dI="12" dr="1"/>
+    </b>
+    <b name="ssxin" sc="1" dl="0">
+     <f dr="3" dI="-1"/>
+     <f x="-47.95" y="-29.65" cocos2d_x="-70.45" cocos2d_y="-43.65" kX="0" kY="0" cX="1" cY="1" pX="23" pY="14" z="1" dI="0" dr="4"/>
+    </b>
+   </mov>
+  </animation>
+ </animations>
+ <TextureAtlas name="shasengnew" width="512" height="512">
+  <SubTexture name="ssxin" width="45" height="28" cocos2d_pX="0" cocos2d_pY="0" x="460" y="0"/>
+  <SubTexture name="sshan" width="24" height="37" cocos2d_pX="0" cocos2d_pY="0" x="460" y="30"/>
+  <SubTexture name="sskaixin06" width="90" height="138" cocos2d_pX="0" cocos2d_pY="0" x="184" y="0"/>
+  <SubTexture name="sskaixin05" width="90" height="138" cocos2d_pX="0" cocos2d_pY="0" x="368" y="140"/>
+  <SubTexture name="sskaixin04" width="90" height="138" cocos2d_pX="0" cocos2d_pY="0" x="0" y="140"/>
+  <SubTexture name="sskaixin03" width="90" height="138" cocos2d_pX="0" cocos2d_pY="0" x="184" y="280"/>
+  <SubTexture name="sskaixin02" width="90" height="138" cocos2d_pX="0" cocos2d_pY="0" x="184" y="140"/>
+  <SubTexture name="sskaixin01" width="90" height="138" cocos2d_pX="0" cocos2d_pY="0" x="0" y="0"/>
+  <SubTexture name="ssshou07" width="90" height="138" cocos2d_pX="0" cocos2d_pY="0" x="92" y="0"/>
+  <SubTexture name="ssshou06" width="90" height="138" cocos2d_pX="0" cocos2d_pY="0" x="368" y="0"/>
+  <SubTexture name="ssshou05" width="90" height="138" cocos2d_pX="0" cocos2d_pY="0" x="92" y="140"/>
+  <SubTexture name="ssshou04" width="90" height="138" cocos2d_pX="0" cocos2d_pY="0" x="276" y="140"/>
+  <SubTexture name="ssshou03" width="90" height="138" cocos2d_pX="0" cocos2d_pY="0" x="0" y="280"/>
+  <SubTexture name="ssshou02" width="90" height="138" cocos2d_pX="0" cocos2d_pY="0" x="92" y="280"/>
+  <SubTexture name="ssshou01" width="90" height="138" cocos2d_pX="0" cocos2d_pY="0" x="276" y="0"/>
+ </TextureAtlas>
+</skeleton>
